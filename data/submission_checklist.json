@@ -1,267 +1,219 @@
 [
   {
     "item": "RFP Due Date and Time",
-    "details": "Wednesday, March 12, 2025 no later than 3:30 pm (Local Time)"
+    "details": "Wednesday, March 12, 2025, no later than 3:30 pm (Local Time)"
   },
   {
-    "item": "Project Goal",
-    "details": "Centralize and update a user-friendly, visually appealing, and mobile-responsive website."
+    "item": "Project Objective",
+    "details": "Update and centralize department and program websites for the SRMT"
   },
   {
-    "item": "Website Details",
-    "details": "Current website: https://www.srmt-nsn.gov/about"
+    "item": "Website Requirements",
+    "details": "User-friendly, visually appealing, mobile-responsive website that effectively communicates the SRMT mission, identifies program services, and enhances user experience"
   },
   {
-    "item": "Scope of Work",
+    "item": "Page Limit",
+    "details": "The document is 7 pages long."
+  },
+  {
+    "item": "RFP Number",
+    "details": "RFP No. 25-0037"
+  },
+  {
+    "item": "Scope of Work Description",
     "details": "Proposals should describe how each of the project deliverables will be provided."
   },
   {
-    "item": "Training Requirement",
-    "details": "Provide training for Tribal program staff to maintain websites without specialized technical knowledge or assistance."
+    "item": "CMS Requirements",
+    "details": "Demonstrate knowledge and use of Craft CMS 3."
   },
   {
-    "item": "Written Reports",
+    "item": "Reporting Requirement",
     "details": "Provide written reports of completed deliverables on a regular basis to SRMT."
   },
   {
-    "item": "Documentation",
+    "item": "Documentation Requirement",
     "details": "Provide documentation of new web-based, digital features, and modules \u2013 both technical and instructional."
   },
   {
-    "item": "Responsiveness",
+    "item": "Response Time",
     "details": "Respond to inquiries and follow-up to action items in a timely manner."
   },
   {
-    "item": "Availability",
+    "item": "Meeting Availability",
     "details": "Be available with reasonable notice to meet the SRMT representatives."
   },
   {
-    "item": "Post-Launch Website Maintenance and Improvement Plan",
+    "item": "Training Requirement",
+    "details": "Provide training for Tribal program staff to maintain websites."
+  },
+  {
+    "item": "Post-launch website maintenance and improvement plan",
     "details": "Provide a fully transparent and detailed post-launch website maintenance and improvement plan."
   },
   {
-    "item": "Term of Contract",
-    "details": "Services terminate 1-year from execution of contract."
+    "item": "Insurance Coverage: Comprehensive General Liability",
+    "details": "Minimum $1,000,000.00 (US) general aggregate and the same amount for each occurrence, naming the Saint Regis Mohawk Tribe as additional insured; copy of certificate required upon request."
   },
   {
-    "item": "Tax Exemption",
-    "details": "SRMT is a tax-exempt organization. Exemption Organization Certification # EX 152433 certifies tax exemption."
-  },
-  {
-    "item": "Insurance Coverage - Comprehensive General Liability",
-    "details": "Provide Comprehensive General Liability coverage, minimum $1,000,000.00 general aggregate and the same amount for each occurrence, naming the Saint Regis Mohawk Tribe as additional insured, and submit a copy of certificate upon request."
-  },
-  {
-    "item": "Insurance Coverage - Business Automobile Liability",
-    "details": "Provide Business Automobile Liability coverage, minimum $1,000,000.00 combined single limit or $1,000,000.00 bodily injury and $500,000.00 property damage, when contractor uses any vehicle, owned or non-owned in performing contractual duties and submit a copy of certificate upon request."
+    "item": "Insurance Coverage: Business Automobile Liability",
+    "details": "Minimum $1,000,000.00 (US) combined single limit or $1,000,000.00 bodily injury and $500,000.00 property damage, when contractor uses any vehicle; copy of certificate required upon request."
   },
   {
     "item": "Insurance Underwriter Requirements",
     "details": "All insurances are to be underwritten by a company satisfactory to the SRMT (Best \u201cA\u201d rating) and authorized to do business in the state of New York."
   },
   {
-    "item": "Submission Address (Physical)",
-    "details": "Saint Regis Mohawk Tribe, Grants & Contracts Office, 71 Margaret Terrance Memorial Way, Akwesasne, NY 13655"
+    "item": "Tax Exemption",
+    "details": "SRMT is tax-exempt. Exemption Organization Certification # EX 152433 certifies that the property and/or services ordered/purchased hereby are for the use of, and are being purchased by the SRMT, and are, therefore, not subject to New York State sales and use taxes."
   },
   {
-    "item": "Submission Address (Email)",
-    "details": "grants.contracts@srmt-nsn.gov"
+    "item": "Fee Proposal",
+    "details": "Payment will be based on the proposer's Fee Proposal."
   },
   {
-    "item": "Envelope/Subject Line Labeling",
-    "details": "\"RFP No.25-0037 Website Development and Maintenance, Akwesasne, New York\""
+    "item": "Submission Address",
+    "details": "Saint Regis Mohawk Tribe, Grants & Contracts Office, 71 Margaret Terrance Memorial Way, Akwesasne, NY 13655 or via E-mail to: grants.contracts@srmt-nsn.gov"
+  },
+  {
+    "item": "Proposal Labeling",
+    "details": "Label envelope or subject line with \u201cRFP No.25-0037 Website Development and Maintenance, Akwesasne, New York\u201d"
   },
   {
     "item": "Submission Method Restrictions",
-    "details": "No oral or telephone submissions accepted."
+    "details": "No oral or telephone submissions accepted"
   },
   {
-    "item": "Proposal Due Date",
-    "details": "Wednesday, March 12, 2025"
+    "item": "Proposal Due Date and Time",
+    "details": "Proposals must be received on or before 3:30 p.m. (local time), Wednesday, March 12, 2025"
   },
   {
-    "item": "Proposal Due Time",
-    "details": "3:30 p.m. (local time)"
-  },
-  {
-    "item": "Late Submissions",
-    "details": "Proposals received after the closing time will not be considered."
+    "item": "Late Proposal Policy",
+    "details": "Proposals received after the closing time will not be considered"
   },
   {
     "item": "Inquiry Submission Deadline",
-    "details": "Five (5) calendar days prior to the closing due date and time"
+    "details": "Inquiries must be submitted in writing no later than five (5) calendar days prior to the closing due date and time"
   },
   {
-    "item": "Inquiry Submission Method",
-    "details": "In writing, via mail or email to Grants & Contracts Office"
+    "item": "Inquiry Submission Address",
+    "details": "Submit inquiries to: Saint Regis Mohawk Tribe, Grants & Contracts Office, 71 Margaret Terrance Memorial Way, Akwesasne, NY 13655 or via E-mail to: grants.contracts@srmt-nsn.gov"
   },
   {
-    "item": "Inquiry Contact",
-    "details": "Grants & Contracts Office (grants.contracts@srmt-nsn.gov)"
+    "item": "Inquiry Restrictions",
+    "details": "Inquiries are to be directed ONLY to the Grants & Contracts Office throughout this solicitation period"
   },
   {
     "item": "Proposal Format Compliance",
-    "details": "All proposals must be in the format required in this RFP; failure to comply may be reason to declare the proposals non-responsive."
+    "details": "All proposals must be in the format required in this RFP"
   },
   {
-    "item": "Amendment Submission Method",
-    "details": "Amendments must be in writing and delivered, hand delivered, e-mailed, or mailed to the Grants & Contracts Office."
+    "item": "Proposal Amendments",
+    "details": "Proposals may be amended in writing and delivered before the closing time, signed by the authorized signatory"
   },
   {
-    "item": "Amendment Signature",
-    "details": "Amendments should be signed by the authorized signatory of the Proposer."
-  },
-  {
-    "item": "Amendment Submission Deadline",
-    "details": "Amendment must be delivered to the closing location before the closing time, but not after."
+    "item": "Amendment Delivery Method",
+    "details": "Amendments can be hand delivered, e-mailed, or mailed to the Grants & Contracts Office"
   },
   {
     "item": "Acceptance of Terms and Conditions",
-    "details": "Submission of a proposal constitutes acceptance of all RFP terms and conditions, unless otherwise specified in the proposal."
+    "details": "Submission of a proposal constitutes acknowledgement and acceptance of all terms and conditions in the RFP, unless otherwise specified in the proposal."
   },
   {
-    "item": "Proposal Withdrawal",
-    "details": "Proposals may be withdrawn prior to the opening time via written request to the Grants & Contracts Office."
+    "item": "Withdrawing Proposals",
+    "details": "Proposals may be withdrawn prior to the opening time. Request for non-consideration must be in writing to the Grants & Contracts Office."
   },
   {
     "item": "Proposal Validity Period",
     "details": "The proposal is valid for 60 calendar days following the closing date and time."
   },
   {
-    "item": "Responsiveness",
-    "details": "Proposal must respond to all requirements of the RFP to be considered responsive."
+    "item": "Proposal Responsiveness",
+    "details": "The proposal shall respond to all requirements of the RFP to be considered responsive."
   },
   {
-    "item": "Transmittal Letter - Proposer Information",
-    "details": "Include name, contact information (email, phone, mailing address) of proposer/firm and authorized representative with their title(s) and contact information."
+    "item": "Proposal Order",
+    "details": "Proposals must be answered in the same order in which it is requested in the RFP."
   },
   {
-    "item": "Transmittal Letter - Statement of Interest",
-    "details": "Include a general statement of interest and what sets the proposer apart."
+    "item": "Transmittal Letter Requirements",
+    "details": "Include proposer/firm introduction, contact information (email, phone, address), authorized representative information, statement of interest, preferences, and signature by an authorized individual."
   },
   {
-    "item": "Transmittal Letter - Preferences",
-    "details": "Include a general statement of any applicable preferences."
+    "item": "Unsigned Transmittal Letter",
+    "details": "An unsigned transmittal letter may cause the proposal to be rejected."
   },
   {
-    "item": "Transmittal Letter - Signature",
-    "details": "Transmittal letter must be signed by an individual authorized to contractually bind the proponent. Unsigned letters may result in rejection."
+    "item": "Executive Summary Requirements",
+    "details": "Briefly describe the proposer\u2019s approach to Web Development and Maintenance Services, potential problems and solutions, and any proposed alternatives or options."
   },
   {
-    "item": "Executive Summary - Approach",
-    "details": "Briefly describe proposer\u2019s approach to Web Development and Maintenance Services and its summarized approach to completing the scope of services outlined."
+    "item": "Proposal Section Titles",
+    "details": "Proposals must include sections titled: a) Company Overview, b) Approach to Work, c) Experience and Qualifications, d) Fee Proposal, e) Preferences"
   },
   {
-    "item": "Executive Summary - Potential Problems",
-    "details": "Summarize any potential problems and provide creative suggestions for addressing them."
+    "item": "Company Overview Content",
+    "details": "Provide firm name, address, phone, email, brief history, and point of contact for the proposal."
   },
   {
-    "item": "Executive Summary - Options/Alternatives",
-    "details": "Identify any options or alternatives being proposed and clearly disclose any major requirements."
+    "item": "Approach to Work Content",
+    "details": "Describe understanding of SRMT requirements, items that cannot be addressed, expectations of SRMT staff, and a proposed schedule of deliverables."
   },
   {
-    "item": "Experience and Qualifications Section",
-    "details": "Must contain a brief summary of experience in the field and overall qualifications."
+    "item": "Experience and Qualifications Content",
+    "details": "Include firm experience summary, list of key personnel and their roles, biographies of key personnel, three work samples, and three business references."
   },
   {
-    "item": "Key Personnel List",
-    "details": "Provide a list of key personnel assigned to the project and their roles."
-  },
-  {
-    "item": "Key Personnel Biographies",
-    "details": "Include biographies for all key personnel assigned to the project."
-  },
-  {
-    "item": "Work Samples",
-    "details": "Provide three (3) samples of work performed similar in size and scope, as website links or similar."
-  },
-  {
-    "item": "Business References",
-    "details": "Provide a minimum of three (3) business references with complete contact information."
-  },
-  {
-    "item": "Fee Proposal",
-    "details": "Include a firm fixed pricing structure covering labor, hosting/maintenance, and license renewals."
-  },
-  {
-    "item": "Cost Breakdown",
-    "details": "Fee proposal should identify all expected costs and specify services generating additional charges."
+    "item": "Fee Proposal Structure",
+    "details": "Provide a firm fixed pricing structure for labor, hosting/maintenance, and license renewals. Fee proposals should identify all expected costs and additional charges."
   },
   {
     "item": "Alternative Fee Proposals",
-    "details": "Respondents can submit alternative fee proposals for consideration."
+    "details": "Respondents may submit alternative fee proposals."
   },
   {
-    "item": "Native / Mohawk Preference",
-    "details": "If eligible, provide proof of enrollment/membership in a federally recognized Tribe or proof of certification as an Indian-owned business (Native American Ownership must be 51% or more)."
+    "item": "Native American Preference",
+    "details": "If claiming Native American Preference, provide proof of enrollment/membership in a federally recognized tribe or proof of certification as an Indian-owned business (51% or more Native American Ownership)."
   },
   {
-    "item": "Native American Preference Documentation (Attachment A)",
-    "details": "If claiming Native American preference, provide proof of certification per Attachment A."
+    "item": "Native American Preference (Mohawk Owned Businesses)",
+    "details": "If certified with SRMT as Mohawk Owned Business, submit proof for extra evaluation points (See Attachment \u201cA\u201d, Native American Preference Policy)"
   },
   {
-    "item": "Mohawk Owned Business Certification",
-    "details": "If certified with SRMT as Mohawk Owned Business, no documentation explicitly stated but likely required."
+    "item": "Women Business Enterprise and Disabled Veteran Business Enterprise",
+    "details": "If eligible for WBE/DVBE preference, provide proof of certification from a government agency in the state the contractor is incorporated or has its principal business."
   },
   {
-    "item": "WBE/DVBE Certification",
-    "details": "If eligible for WBE/DVBE preference, provide proof of certification (business registration and government agency certification)."
-  },
-  {
-    "item": "MBE/VBE Certification",
-    "details": "If eligible for MBE/VBE preference, provide proof of certification (business registration and government agency certification)."
-  },
-  {
-    "item": "Strategy, Approach and Methodology (Comprehension)",
-    "details": "Provide details on Strategy, Approach and Methodology. (30 points)"
-  },
-  {
-    "item": "Fee Proposal and Schedule",
-    "details": "Provide a detailed fee proposal and schedule. (25 points)"
-  },
-  {
-    "item": "Firm Experience & Qualifications/Personnel Qualifications",
-    "details": "Provide details on the firm's experience and qualifications as well as those of personnel. (35 points)"
+    "item": "Minority Business Enterprise and Veteran Business Enterprise",
+    "details": "If eligible for MBE/VBE preference, provide proof of certification from a government agency in the state the contractor is incorporated or has its principal business."
   },
   {
     "item": "SRMT Combined Certifications (Attachment B)",
-    "details": "Complete, sign, and return SRMT Combined Certifications for Lobbying; Certification Regarding Debarment; Certification Regarding Drug-Free Workplace; Certification Regarding Trafficking in Persons and Anti-Collusion Statement (See Attachment \u201cB\u201d)."
+    "details": "Return all signed certifications with proposals. Includes certifications for Lobbying, Debarment, Drug-Free Workplace, Trafficking in Persons, and Anti-Collusion Statement. (See Attachment \u201cB\u201d)"
   },
   {
     "item": "SRMT Respiratory Virus Workplace Safety Standards",
-    "details": "Proposer agrees to comply with and return signed certifications related to SRMT Respiratory Virus Workplace Safety Standards"
+    "details": "Proposer agrees to comply with SRMT Respiratory Virus Workplace Safety Standards"
   },
   {
-    "item": "Amendment Reference",
-    "details": "Refer to Attachment \"C\" and any addenda."
+    "item": "RFP Version",
+    "details": "Follow RFP V011 dated March 13, 2024 (or as amended). See Attachment \u201cC\u201d."
   },
   {
     "item": "Addenda Review",
-    "details": "Proposers are responsible for reviewing all addenda to the RFP."
+    "details": "Proposers must review all addenda issued. Failure to do so does not relieve proposer obligations."
   },
   {
-    "item": "Proposal Compliance",
-    "details": "Proposals will be evaluated for compliance with minimum qualifications, content, and format requirements of the RFP."
-  },
-  {
-    "item": "Evaluation Criteria",
-    "details": "The evaluation process aims to identify proposers with the highest probability of satisfactorily performing the services."
-  },
-  {
-    "item": "Interviews",
-    "details": "Interviews may be scheduled with selected Proposers."
-  },
-  {
-    "item": "Non-Responsive Proposals",
-    "details": "Non-responsive proposals may be rejected."
+    "item": "Compliance with RFP Requirements",
+    "details": "Proposals will be assessed for compliance with minimum qualifications, content, and format requirements."
   },
   {
     "item": "Proposal Signature",
-    "details": "Proposal must be signed."
+    "details": "The proposal must be signed."
   },
   {
     "item": "Addenda Acknowledgment",
-    "details": "All addenda (if issued) must be acknowledged."
+    "details": "All issued addenda must be acknowledged."
   },
   {
     "item": "Required Submittals/Documentation",
@@ -269,7 +221,7 @@
   },
   {
     "item": "Submission Deadline",
-    "details": "Proposal must be submitted on time."
+    "details": "Proposals must be submitted on time."
   },
   {
     "item": "Minimum Requirements",
@@ -277,27 +229,39 @@
   },
   {
     "item": "Proprietary Information",
-    "details": "Any portion of the proposal marked \"proprietary\" and highlighted can be returned after award of contract, if requested."
+    "details": "Portions of the proposal marked \"proprietary\" and highlighted may be returned after contract award, if requested."
   },
   {
     "item": "Confidential Information Marking",
-    "details": "Clearly mark any portions of the proposal considered exempt from disclosure as \"Confidential\"."
+    "details": "If a proposer believes portions of their response are exempt from disclosure, the respondent shall clearly mark this information \u201cConfidential\u201d."
   },
   {
-    "item": "Protest Submission Method",
-    "details": "Protest must be in writing and sent by certified or registered mail or delivered personally to SRMT Grants & Contracts Office, 71 Margaret Terrance Memorial Way, Akwesasne, NY 13655. Request a receipt if hand-delivered."
+    "item": "Protest Submission Location",
+    "details": "Submit the written protest to the SRMT Grants & Contracts Office, 71 Margaret Terrance Memorial Way, Akwesasne, NY 13655."
   },
   {
-    "item": "Protest Content Requirements",
-    "details": "Protest must include the name, address, telephone and e-mail of the party protesting or their representative, the title of the RFP, a detailed description of the specific legal and factual grounds of protest, supporting documentation, and the specific ruling or relief requested."
+    "item": "Protest Delivery Method",
+    "details": "Protest must be sent by certified or registered mail or delivered personally. If hand-delivered, request a receipt."
   },
   {
-    "item": "Completeness of Initial Protest Submission",
-    "details": "The initial protest submittal must include all grounds for the protest and all evidence available at the time of submission. SRMT will not consider new grounds or evidence raised later that could have been included initially."
+    "item": "Protest Content - Contact Information",
+    "details": "Include the name, address, telephone, and e-mail of the party protesting or their representative."
+  },
+  {
+    "item": "Protest Content - RFP Title and Grounds",
+    "details": "Include the title of the RFP and a detailed description of the specific legal and factual grounds of protest and any supporting documentation."
+  },
+  {
+    "item": "Protest Content - Relief Requested",
+    "details": "The specific ruling or relief requested must be stated."
+  },
+  {
+    "item": "Protest Completeness",
+    "details": "The initial protest submittal must include all grounds for the protest and all evidence available at the time the protest is submitted. New grounds or evidence will not be considered."
   },
   {
     "item": "Eligibility to Protest After Award",
-    "details": "To protest the award, the proposer must have submitted a proposal believed to be responsive to the solicitation document and meeting the administrative and technical requirements."
+    "details": "To protest the award based on improprieties, the Proposer must have submitted a proposal that it believes to be responsive and meets the administrative and technical requirements."
   },
   {
     "item": "Protest Submission Deadline",
@@ -309,67 +273,99 @@
   },
   {
     "item": "Exclusion Database Screening",
-    "details": "Successful proposers will be screened against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database."
+    "details": "Successful proposers will be screened against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database before contracting and for the duration of the contract."
   },
   {
-    "item": "Truthfulness of Certifications",
-    "details": "Proposals may be deemed non-responsive if information is missing, inaccurate, or certifications are untrue."
+    "item": "Accuracy of Information",
+    "details": "SRMT will declare non-responsive any proposal in respect of which the requested information is missing or inaccurate, or in respect of which the certifications are found to be untrue."
+  },
+  {
+    "item": "False Declaration Consequences",
+    "details": "If a false declaration is made, SRMT will have the right to terminate the Contract/Agreement for default."
   },
   {
     "item": "Maintaining Up-to-Date Information",
-    "details": "The Proposer/bidder will be required to diligently maintain up-to-date the information requested."
+    "details": "The Proposer will be required to diligently maintain up-to-date the requested information."
   },
   {
-    "item": "List of Directors (Incorporated Proposers)",
-    "details": "Incorporated proposers/bidders must provide a complete list of names of all individuals who are currently directors of the company/firm with their proposal/bid or promptly thereafter."
+    "item": "Proposer and Affiliate Eligibility",
+    "details": "The Proposer and any of the Proposer\u2019s affiliates, will also be required to remain free and clear of any acts or convictions specified during the period of any contract arising from this."
   },
   {
-    "item": "Name of Owner (Sole Proprietorships)",
-    "details": "Proposers/bidders submitting as sole proprietorship must provide the name of the owner with their proposal or promptly thereafter."
+    "item": "List of Directors (Corporations/Joint Ventures)",
+    "details": "Incorporated proposers/bidders (including joint ventures) must provide a complete list of names of all current directors with their proposal or promptly thereafter."
   },
   {
-    "item": "Consequences of Non-Compliance",
-    "details": "Failure to provide the required names within the specified timeframe after notification will render the proposal/bid non-responsive."
+    "item": "Name of Owner (Sole Proprietorships/Joint Ventures)",
+    "details": "Sole proprietorship proposers/bidders (including joint ventures) must provide the name of the owner with their proposal or promptly thereafter."
+  },
+  {
+    "item": "Compliance with Name Provision Requirement",
+    "details": "Failure to provide the required names within the timeframe specified by SRMT will render the proposal/bid non-responsive."
   },
   {
     "item": "Mandatory Requirement for Contract Award",
     "details": "Providing the required names is a mandatory requirement for contract award."
   },
   {
-    "item": "General Contract Terms and Conditions",
-    "details": "The SRMT General Contract Terms and Conditions for Service apply. (See Attachment \u201cD\u201d)"
+    "item": "Terms and Conditions",
+    "details": "The Saint Regis Mohawk Tribe (SRMT) General Contract Terms and Conditions for Service apply (See Attachment \u201cD\u201d)."
   },
   {
-    "item": "Native American Preference Policy",
-    "details": "Refer to Native American Preference Policy Version 003, Page 1 of 12."
+    "item": "Goods and Services Preference Standards",
+    "details": "Preference standards are applicable, excluding construction."
   },
   {
-    "item": "American Preference Policy Version",
-    "details": "Policy Version 003"
+    "item": "Goods and Service Sliding Scale",
+    "details": "Sliding scale is applicable, excluding construction."
   },
   {
-    "item": "Mohawk Business Ownership Requirement",
-    "details": "Business must be mainly owned (at least 51% or more) by a Mohawk."
+    "item": "Construction Native American Preference Standards",
+    "details": "Requirements for construction projects with Native American preference."
   },
   {
-    "item": "Mohawk Business Management Requirement",
-    "details": "Mohawk owner must be substantially involved in day-to-day management and operations."
+    "item": "Construction \u2013 Sliding Scale",
+    "details": "Sliding scale applicable to construction projects."
   },
   {
-    "item": "Mohawk Business Registration and Certification",
-    "details": "Business must be registered and received the SRMT Native American Preference Certification through the SRMT Compliance Department."
+    "item": "Construction Native American Preference Plan Requirements",
+    "details": "Specific plan requirements for Native American preference in construction."
   },
   {
-    "item": "Native American Owned Business (NAOB) Ownership Requirement",
-    "details": "Company that is at least 51% owned and operated (e.g. management decisions) by a Native American."
+    "item": "Construction \u2013 Native American Preference Employment Plan Requirement",
+    "details": "Employment plan requirements within the Native American preference construction plan."
   },
   {
-    "item": "NAOB Registration and Certification",
-    "details": "Registered and received a SRMT Native American Preference Certification through the SRMT Compliance Department."
+    "item": "Mandatory Compliance",
+    "details": "Compliance with all applicable rules and regulations is mandatory."
   },
   {
-    "item": "Page Number",
-    "details": "Page 2 of 12"
+    "item": "Compliance Enforcement",
+    "details": "Enforcement mechanisms for ensuring compliance."
+  },
+  {
+    "item": "American Preference Policy",
+    "details": "Compliance with the American Preference Policy is required."
+  },
+  {
+    "item": "Purpose",
+    "details": "Promote self-sufficiency and economic growth of the Saint Regis Mohawk Tribe and its members by promoting Native American and Mohawk owned businesses; and to provide preference in the Tribal hiring process."
+  },
+  {
+    "item": "Policy Statement",
+    "details": "The Tribe reserves its unique legal right to give Native Americans and Mohawks special consideration for employment, training, contracting, subcontracting, and business opportunities."
+  },
+  {
+    "item": "Mohawk Business Definition",
+    "details": "A business mainly owned by a Mohawk; controls the majority of the business (at least 51% or more); and be substantially involved in the day-to-day management and operations of the business and has been registered and received the SRMT Native American Preference Certification through the SRMT Compliance Department."
+  },
+  {
+    "item": "Native American Owned Business (NAOB) Definition",
+    "details": "A company that is at least 51% owned and operated (e.g. management decisions) by a Native American and has been registered and received a SRMT Native American Preference Certification through the SRMT Compliance Department."
+  },
+  {
+    "item": "SRMT Native American Preference Certification",
+    "details": "Mohawk and Native American Owned Businesses must be registered and received this certification through the SRMT Compliance Department."
   },
   {
     "item": "American Preference Employment Plan",
@@ -377,83 +373,95 @@
   },
   {
     "item": "Qualified business or company requirements",
-    "details": "Must meet minimum requirements for a contract, including proper insurance coverage (liability, workers' compensation, etc.) and all other requirements in the Invitation for Bids/Request for Quotes. Must also meet practical, technical, administrative, and financial requirements to perform the services or provide the goods."
+    "details": "Must meet minimum requirements for a contract, including proper insurance coverage (liability, workers\u2019 compensation, etc.) and all other requirements in the Invitation for Bids/Request for Quotes."
   },
   {
-    "item": "Responsible bidder definition",
-    "details": "Contractor/supplier/vendor must have adequate financial resources, comply with legal/regulatory requirements, deliver according to schedule, have a history of satisfactory performance, a good reputation, necessary data/equipment/facilities, and be otherwise eligible and qualified."
+    "item": "Practical, technical, administrative and financial requirements",
+    "details": "Must meet the practical, technical, administrative and financial requirements of a firm to perform the services or goods specifically set out in the bid or request for proposal package."
+  },
+  {
+    "item": "Responsible bidder qualifications",
+    "details": "Must have adequate financial resources, be able to comply with legal/regulatory requirements, deliver according to schedule, have a history of satisfactory performance, have a good reputation, possess necessary data/equipment/facilities, and be otherwise eligible and qualified."
   },
   {
     "item": "SRMT Native American Preference Certification",
-    "details": "Native Vendor must provide the certification provided by the SRMT Compliance Department where the Native Vendor meets the Native American Owned Business or Company or Mohawk Business definition."
+    "details": "Certification provided by the SRMT Compliance Department if the vendor meets the Native American Owned Business or Company or Mohawk Business definition of this policy as per Exhibit A."
   },
   {
-    "item": "Native American Preference",
-    "details": "Native American Preference shall be applied to all acquisitions for goods and services for the Saint Regis Mohawk Tribe."
+    "item": "Native American Preference Application",
+    "details": "Native American Preference applies to all acquisitions for goods and services for the Saint Regis Mohawk Tribe where price is the determining factor."
   },
   {
     "item": "Mohawk Owned Business Preference",
-    "details": "Businesses that are registered/certified as Mohawk Owned Businesses will be granted an extra 2% or 2 points in the evaluation for goods and services."
+    "details": "Registered/certified Mohawk Owned Businesses will be granted an extra 2% or 2 points in the evaluation for goods and services."
   },
   {
     "item": "Qualification Requirement",
-    "details": "The Native American Preference must be applied after all bidders or proposers are deemed qualified."
+    "details": "Native American Preference must be applied after all bidders or proposers are deemed qualified."
   },
   {
     "item": "Solicitation of Quotes",
     "details": "The Tribe shall solicit construction contracts in accordance with the Tribe\u2019s Procurement Policy."
   },
   {
-    "item": "Tribal entities' policies",
-    "details": "Tribal entities shall adhere to their respective procurement of goods, services, and construction contract policies while incorporating the Native Preference Policy."
+    "item": "Tribal Entities Policy Adherence",
+    "details": "Tribal entities, subsidiaries, and enterprises shall adhere to their respective procurement policies while incorporating the Native Preference Policy."
+  },
+  {
+    "item": "Goods and Services Sliding Scale",
+    "details": "The sliding scale chart shall be applied as necessary to the procurement of goods and services, excluding construction"
   },
   {
     "item": "Native American Preference Policy",
-    "details": "Preference given to Native American bidders according to a sliding scale based on bid amount."
+    "details": "Adherence to the Native American Preference Policy is required."
   },
   {
-    "item": "Mohawk Preference Example",
-    "details": "Additional preference may be given to Mohawk bidders."
+    "item": "Mohawk Preference Policy",
+    "details": "Adherence to the Mohawk Preference Policy is required (where applicable)."
   },
   {
-    "item": "Sliding Scale Percentages",
-    "details": "Varying percentages of bid preference based on the cost of goods and services. See table for specific ranges and percentages."
+    "item": "Sliding Scale Percentages for Procurement of Goods and Services",
+    "details": "Bids must adhere to the provided sliding scale percentages for Native American Preference."
   },
   {
-    "item": "Native American Preference Requirement",
-    "details": "Must meet the 11% native preference plus an additional 2% for Mohawk preference, totaling 13%."
-  },
-  {
-    "item": "Mohawk Bid Eligibility Example",
-    "details": "For a $48,000 bid, a Mohawk bidder's bid must be lower than $54,240 to be eligible for the award."
+    "item": "Mohawk Bidder Preference",
+    "details": "Mohawk bidder must meet 11% native preference plus 2% (total 13%) to be eligible for award."
   },
   {
     "item": "Sliding Scale Calculation Formula",
-    "details": "L x P + L = MB (Low Bidder Price x Percentage + Low Bidder Price = Max Bid). If Native bid is less than Max Bid, Native gets the award."
+    "details": "Native American Preference applied to all acquisitions for goods and services for Saint Regis Mohawk Tribe."
   },
   {
-    "item": "Native American Preference Application",
-    "details": "Applied to either proposal evaluation points or bid price, whichever has a higher preference value, after all bidders are qualified."
+    "item": "Price as Determining Factor",
+    "details": "Preference applied in accordance with the sliding scale below, where price is the determining factor. (L x P) + L = MB. If N<MB, Native gets the award."
   },
   {
-    "item": "Native American Preference Limitations",
-    "details": "Cannot overcome lack of responsiveness, responsibility, or qualification of a bidder."
+    "item": "Price Not Sole Determining Factor",
+    "details": "Native American Preference may be applied in the proposal review evaluation by the awarding of additional points for those Native proposers who qualify. Preference applied shall be percentage of total evaluation points."
   },
   {
-    "item": "Page Numbering",
-    "details": "Document is numbered Page 5 of 12."
+    "item": "Mohawk Individual/Business Additional Preference",
+    "details": "An additional 2% or points for Mohawk individuals or businesses shall also be applied if eligible."
+  },
+  {
+    "item": "Native American/Mohawk Preference Application",
+    "details": "Preference applied to proposal evaluation points and to proposal bid price, whichever has higher preference value."
+  },
+  {
+    "item": "Native American Preference Limitation",
+    "details": "Preference cannot overcome lack of responsiveness, responsibility or qualification of a bidder."
   },
   {
     "item": "Native American Preference Employment Plan",
-    "details": "Successful bidders shall submit a Native American Preference Employment Plan to the SRMT Compliance Department."
+    "details": "All successful construction bidders must submit a Native American Preference Employment Plan to the SRMT Compliance Department."
   },
   {
-    "item": "Mohawk Owned Business Registration/Certification",
-    "details": "Individuals or Businesses registered/certified as Mohawk Owned Businesses shall be granted an extra 2% or 2 points in the evaluation for construction."
+    "item": "Mohawk Owned Business Preference",
+    "details": "Individuals or Businesses that are registered/certified as Mohawk Owned Businesses shall be granted an extra 2% or 2 points in the evaluation for construction."
   },
   {
-    "item": "Solicitation of Bids",
-    "details": "The Tribe shall solicit construction contracts in accordance with the Tribe\u2019s Contract and Procurement Policy."
+    "item": "Lowest Responsible Bidder - Native American Preference",
+    "details": "An award shall be made under unrestricted solicitations to the lowest responsible bid from a qualified Native American owned business or company, if the bid is no more than a certain percentage higher than the total bid price of the lowest responsible bid from any qualified bidder. (See sliding scale in RFP for exact percentages based on bid amount)"
   },
   {
     "item": "Native American Preference",
@@ -464,40 +472,44 @@
     "details": "An additional 2% or 2 points for Mohawk individuals or businesses shall be applied if eligible."
   },
   {
-    "item": "Native American Preference Application",
-    "details": "The Native American/Mohawk Preference shall be applied to either proposal evaluation points and to proposal bid price, whichever has a higher preference value."
+    "item": "Native American/Mohawk Preference Application",
+    "details": "Applied to either proposal evaluation points and to proposal bid price in accordance with the scale outlined, whichever has a higher preference value."
   },
   {
     "item": "Award Criteria",
     "details": "Award shall be made to the qualified company with the lowest responsible bid after the Native American Preference factor has been applied."
   },
   {
-    "item": "NAOB Requirement",
-    "details": "Native American Preference factor may be utilized for any bidder who is an approved NAOB that provides a Native American Preference Employment Plan."
-  },
-  {
-    "item": "Construction - Native American Preference Employment Plan Requirement",
-    "details": "All construction contracts awarded by the Tribe require a Native American Preference Employment Plan."
-  },
-  {
     "item": "Native American Preference Employment Plan",
-    "details": "The successful General Contractor must provide a Native American Preference Employment Plan upon request of the SRMT Contracting Officer."
+    "details": "The Native American Preference factor may be utilized for any bidder who is an approved NAOB that provides a Native American Preference Employment Plan."
+  },
+  {
+    "item": "Construction - Native American Preference Employment Plan",
+    "details": "All construction contracts awarded by the Tribe, any Tribal entity, subsidiary, or enterprise including, but not limited to the A, require a Native American Preference Employment Plan"
+  },
+  {
+    "item": "Native American Preference Employment Plan Requirement",
+    "details": "General Contractor and all subcontractors must employ at least 50% qualified Native American workers per division (electricians, carpenters, etc.) and at least 60% unskilled positions with qualified Native Americans."
+  },
+  {
+    "item": "Maintenance of Employment Benchmarks",
+    "details": "The General Contractor and all sub-contractors must maintain the established 50% and 60% Native employment benchmarks throughout the duration of the project."
+  },
+  {
+    "item": "Submission of Native American Preference Employment Plan",
+    "details": "The successful General Contractor\u2019s Native American Preference Employment Plan shall be provided upon request of the SRMT Contracting Officer."
   },
   {
     "item": "Subcontractor Plan Submission",
-    "details": "The General Contractor shall ensure all sub-contractors comply with the Native American Preference Employment Plan by submitting a Plan for each subcontractor after receipt of a Notice of Award and before the contract has been executed."
+    "details": "The General Contractor shall ensure all sub-contractors comply with the requirements of the Native American Preference Employment Plan by submitting a \u201cPlan\u201d for each subcontractor after receipt of a Notice of Award and before the contract has been executed."
   },
   {
-    "item": "Native American Employment Benchmarks",
-    "details": "The General Contractor and all sub-contractors shall maintain the established 50% and 60% Native employment benchmarks throughout the duration of the project."
-  },
-  {
-    "item": "Exemption Request",
-    "details": "The General Contractor may request an exemption from the policy in writing to the Tribal Council with documented proof that there are fewer than 50% qualified Native American workers or 60% unskilled workers."
+    "item": "Request for Exemption",
+    "details": "The General Contractor may request an exemption from this policy in writing to the Tribal Council at any given time in the construction phase, providing documented proof of insufficient qualified Native American workers."
   },
   {
     "item": "List of Certified Native American Companies",
-    "details": "The Compliance Department maintains a list of all certified Native American companies and will provide the list to potential bidders upon request."
+    "details": "The Compliance Department shall maintain an updated list of all certified Native American companies and will provide the list to potential bidders, upon request."
   },
   {
     "item": "NAOB Certification Verification",
@@ -505,7 +517,7 @@
   },
   {
     "item": "Akwesasne Employment Resource Center Reference",
-    "details": "Include a statement referring General Contractors to the Akwesasne Employment Resource Center for Native American workers."
+    "details": "Include a statement referencing the Akwesasne Employment Resource Center for assistance with finding qualified and unskilled Native American workers."
   },
   {
     "item": "Native American Preference Employment Plan Compliance",
@@ -513,395 +525,407 @@
   },
   {
     "item": "Monthly Native American Preference Employment Plan Report",
-    "details": "The Tribal Representative/Project Manager of each construction contract shall provide a monthly report."
+    "details": "The Tribal Representative/Project Manager of each construction contract shall provide a monthly Native American Preference Employment Plan report."
   },
   {
     "item": "Native American Preference Employment Plan",
-    "details": "General contractor must meet the Native American preference employment plan submitted."
-  },
-  {
-    "item": "Waiver from Tribal Council",
-    "details": "Contractor may need a waiver from Tribal Council if unable to meet the Native American preference employment plan."
+    "details": "General contractor must meet the submitted Native American preference employment plan or obtain a waiver from Tribal Council."
   },
   {
     "item": "Financial Penalty for Non-Compliance",
-    "details": "$250 or 10 % non-refundable fine per infraction, per trade per occurrence if Native American preference employment plan is not met and no waiver is granted."
-  },
-  {
-    "item": "SRMT Construction/Service Contract Barring",
-    "details": "Failure to meet the Native American preference employment plan (without a waiver) may result in barring from future SRMT construction and/or service contracts."
+    "details": "Failure to meet Native American preference employment plan (without waiver) results in a $250 or 10% non-refundable fine per infraction, per trade per occurrence, and potential barring from future SRMT contracts."
   },
   {
     "item": "Native American Owned Business Certification",
-    "details": "Applicants seeking Native American Preference must submit proof of ownership and control to the Compliance Director."
+    "details": "Businesses seeking Native American Preference must submit proof of ownership and control to the Compliance Director."
   },
   {
-    "item": "Ownership Requirements (Mohawk Owned Business)",
-    "details": "Enrolled or eligible to be enrolled members of the SRMT must own 51% or more of the business."
+    "item": "SRMT Membership Requirement",
+    "details": "For Mohawk Owned Business, Enrolled or eligible members of the SRMT must own 51% or more of the business."
   },
   {
-    "item": "Control Requirements (Mohawk Owned Business)",
-    "details": "Enrolled or eligible to be enrolled members of the SRMT must exercise majority control of the business, and be substantially involved in the management."
+    "item": "Majority Control Requirement",
+    "details": "For Mohawk Owned Business, Enrolled or eligible members of the SRMT must exercise majority control of the business, and be substantially involved in the management."
   },
   {
     "item": "Native American Ownership Requirement",
-    "details": "At least 51% of the business must be owned by enrolled members of a federally recognized tribe, band, nation, including Alaska Native."
+    "details": "At least 51% ownership by enrolled members of a federally recognized tribe, band, nation, including Alaska Native."
   },
   {
     "item": "Native American Control Requirement",
-    "details": "Enrolled members must exercise majority control and be substantially involved in management and operations."
+    "details": "Majority control and substantial involvement in management/operations by enrolled members of a federally recognized tribe, band, nation, including Alaska Native."
   },
   {
     "item": "Certification Application Submission",
     "details": "Submit a complete Mohawk/Native Owned Business Certification application to the Compliance Department Director."
   },
   {
-    "item": "Application Location",
-    "details": "The Application is available within the Compliance Department Office."
+    "item": "Application Availability",
+    "details": "Application available within the Compliance Department Office."
+  },
+  {
+    "item": "Certification Processing Time",
+    "details": "Certification process may take up to 21 business days."
+  },
+  {
+    "item": "Extension of Processing Period",
+    "details": "Compliance Director may extend processing period by an additional 21 days via registered or electronic mail notification."
   },
   {
     "item": "Certification Fee",
-    "details": "A set certification fee established by the Compliance Department and approved by Tribal Council shall be posted on the appendix of the application."
+    "details": "A set certification fee will be established by the Compliance Department and approved by Tribal Council, posted in the application appendix."
   },
   {
-    "item": "Application Completion and Payment",
-    "details": "Complete the application and submit receipt of payment to the Compliance Department before the application is examined."
+    "item": "Application and Payment Submission",
+    "details": "Applicant must complete the application and submit receipt of payment to the Compliance Department before examination for certification."
   },
   {
-    "item": "Certification Period",
-    "details": "If verified, the Compliance Director shall issue a two-year certification to the Business."
+    "item": "Verification of Information",
+    "details": "Compliance Department will verify information provided to ensure applicant meets Mohawk or Native Owned Business requirements."
+  },
+  {
+    "item": "Certification Issuance",
+    "details": "Compliance Director will issue a two-year certification upon successful verification."
   },
   {
     "item": "Recertification Required",
-    "details": "Business must recertify."
+    "details": "Business must recertify"
   },
   {
-    "item": "Biennial Application",
+    "item": "Biennial Application Requirement",
     "details": "Applications must be submitted every two years."
   },
   {
     "item": "Denial Notice",
-    "details": "If denied, the Compliance Director shall issue a notice to the Business within five days of determination."
+    "details": "If the application is denied, a notice will be issued within five days of determination."
   },
   {
     "item": "Appeal Option",
-    "details": "Business has the option to appeal denial decision to the SRMT Tribal Council."
+    "details": "Businesses have the option to appeal denial decisions to the SRMT Tribal Council."
   },
   {
     "item": "Investigation Initiation",
-    "details": "Compliance Department Director may initiate an investigation based on credible reports or written grievances."
+    "details": "The Compliance Department Director may initiate investigations based on credible reports or written grievances."
   },
   {
-    "item": "Investigation Documentation",
-    "details": "Concerns or statements of possible false documentation must be documented."
+    "item": "Suspension/Withdrawal Proceedings",
+    "details": "If initial investigation shows valid findings, proceedings to consider withdrawal or suspension of certification will begin."
   },
   {
-    "item": "Suspension/Withdrawal Notice",
-    "details": "Director shall send Business notice of suspension via registered mail or email, along with the grounds for removing the certification."
+    "item": "Notification of Suspension",
+    "details": "Businesses will be notified of certification suspension by registered or electronic mail."
   },
   {
-    "item": "Appeal of Suspension/Withdrawal",
-    "details": "Business may appeal any finding of certification withdrawal or suspension and submit counter documents."
+    "item": "Appeal Submission",
+    "details": "Businesses may appeal suspension/withdrawal and submit documents to counter findings to the Compliance Department Director."
   },
   {
-    "item": "Reapplication Period",
-    "details": "A Business that has had its certification withdrawn or suspended may not reapply for a period of one (1) year from the time it is withdrawn or suspended."
+    "item": "Reapplication Restriction",
+    "details": "Businesses with withdrawn or suspended certification cannot reapply for one year."
   },
   {
     "item": "Change in Status Reporting",
-    "details": "Each certified firm shall report to the Compliance Department Director, in writing, any changes in its ownership or control status within thirty (30) days after such changes occur."
+    "details": "Certified firms must report changes in ownership or control within thirty (30) days of occurrence."
   },
   {
-    "item": "Annual Update of Certified Firm Information",
-    "details": "Each certified firm must update its information on an annual report form provided by the Compliance Department on the anniversary of its certification."
+    "item": "Annual Update for Certified Firms",
+    "details": "Each certified firm must update information provided in the initial application on an annual report form provided by the Compliance Department on the anniversary of its certification."
   },
   {
-    "item": "Consequences of Failure to Provide Information",
-    "details": "Failure to provide information as required shall constitute grounds for the Compliance Department Director to move for withdrawal of certification."
+    "item": "Consequences of Failure to Update",
+    "details": "Failure to provide the required annual update information shall constitute grounds for the Compliance Department Director to move for withdrawal of certification."
   },
   {
-    "item": "Lobbying Certification Requirement",
-    "details": "Contractor certifies that no Federal appropriated funds have been used for lobbying activities."
+    "item": "Lobbying Certification Requirement (Section 1352)",
+    "details": "Contractor certifies that no Federal appropriated funds have been used to influence government officials regarding the contract."
   },
   {
-    "item": "Disclosure of Lobbying Activities with Non-Federal Funds",
-    "details": "If funds other than Federal appropriated funds have been used for lobbying, the contractor must complete and submit Standard Form A-LLL \"Disclosure Form to Report Lobbying.\""
+    "item": "Disclosure of Lobbying Activities",
+    "details": "If funds other than Federal appropriated funds have been or will be paid for lobbying, the undersigned shall complete and submit Standard Form A-LLL \u201cDisclosure Form to Report Lobbying.\u201d"
   },
   {
-    "item": "Certification as Material Representation",
-    "details": "The lobbying certification is a material representation of fact, and submission is a prerequisite for entering into the transaction."
+    "item": "Certification Material Representation",
+    "details": "The lobbying certification is a material representation of fact, and submission is a prerequisite for the transaction."
   },
   {
-    "item": "Penalty for Failure to File",
-    "details": "Any person who fails to file the required lobbying certification shall be subject to a civil penalty."
+    "item": "Consequences of Failure to Certify Lobbying",
+    "details": "Failure to file the required lobbying certification shall be subject to a civil penalty."
   },
   {
     "item": "Certification Regarding Debarment",
-    "details": "Contractor must certify regarding debarment status as required by Executive Order 12549 and 48 CFR Part 9.4."
+    "details": "Contractor must certify its debarment status and related history as required by Executive Order 12549 and 48 CFR Part 9.4. Requires checkmarks for letters a-f."
   },
   {
-    "item": "Debarment Status",
-    "details": "Contractor must indicate whether they are presently debarred, suspended, proposed for debarment, or declared ineligible for contracts by any Federal, State, Local or Tribal Agency (checkmark required)."
+    "item": "Debarment, Suspension, Ineligibility",
+    "details": "Confirm if the contractor is presently debarred, suspended, proposed for debarment, or declared ineligible for contract awards by any Federal, State, Local, or Tribal Agency. Requires checkmark selection."
   },
   {
-    "item": "Conviction/Judgment History",
-    "details": "Contractor must disclose any convictions or civil judgments within a 7-year period preceding the offer relating to fraud, antitrust, embezzlement, theft, forgery, bribery, falsification, tax evasion, etc. (checkmark required)."
+    "item": "Conviction or Civil Judgment History (7-year period)",
+    "details": "Disclose any convictions or civil judgments within the past 7 years related to fraud, antitrust violations, embezzlement, theft, forgery, bribery, falsification of records, false statements, tax evasion, or receiving stolen property. Requires checkmark selection."
   },
   {
-    "item": "Offense History",
-    "details": "Contractor must disclose any guilty pleas or convictions within a 7-year period preceding this offer, to any offense under Federal, State, Local or Tribal Law involving crimes of violence, sexual assault, sexual molestation, sexual exploitation, sexual contact or prostitution, or crimes against persons or has been convicted of an offense involving a child victim, a sex crime, or a drug felony (checkmark required)."
+    "item": "Guilty Plea or Conviction Under Law (7-year period)",
+    "details": "Disclose any guilty pleas or convictions under Federal, State, Local, or Tribal Law involving crimes of violence, sexual assault, sexual molestation, sexual exploitation, sexual contact or prostitution, or crimes against persons or has been convicted of an offense involving a child victim, a sex crime, or a drug felony within the past 7 years. Requires checkmark selection."
   },
   {
-    "item": "Indictment/Charges",
-    "details": "Contractor must disclose if they are presently indicted or criminally/civilly charged by a Governmental entity with commission of the offenses mentioned above (checkmark required)."
+    "item": "Indictment or Charges by Governmental Entity",
+    "details": "Indicate if currently indicted or criminally/civilly charged by a Governmental entity with offenses mentioned in previous sections. Requires checkmark selection."
   },
   {
-    "item": "Tribal Court Judgments",
-    "details": "Contractor must disclose civil or criminal judgements rendered by a tribal court for any offense related to Indian Preference laws (including TERO provisions) (checkmark required)."
+    "item": "Civil or Criminal Judgement by Tribal Court (7-year period)",
+    "details": "Disclose any civil or criminal judgments rendered against them by a tribal court for any offense related to Indian Preference laws (including TERO provisions) within the past 7 years. Requires checkmark selection."
   },
   {
     "item": "Indian Contractor Status Certification",
-    "details": "Contractor must certify regarding any judgments against them related to their status as an Indian contractor."
+    "details": "Contractor must certify their status as an Indian contractor, including whether they have had judgements against them relating to that status."
   },
   {
-    "item": "Contract Termination History Certification",
-    "details": "Contractor must certify whether they have had any contracts terminated for cause or default within the past 7 years."
+    "item": "Contract Termination History",
+    "details": "Contractor must disclose whether they have had contracts (Federal, State, Local or Tribal) terminated for cause or default within the last 7 years."
   },
   {
-    "item": "Written Notice of Erroneous Certification",
-    "details": "Contractor must provide immediate written notice to the Contracting Officer if their certification was erroneous when submitted or becomes erroneous."
+    "item": "Immediate Written Notice of Certification Errors",
+    "details": "Contractor must provide immediate written notice to the Contracting Officer if their certification was erroneous when submitted or becomes erroneous due to changed circumstances."
   },
   {
-    "item": "Annual Recertification (Multi-Year Agreements)",
-    "details": "Contractor must submit a recertification annually in a multi-year agreement."
+    "item": "Annual Recertification",
+    "details": "In a multi-year agreement, the Contractor must submit a recertification annually."
   },
   {
-    "item": "Furnishing Additional Information",
+    "item": "Furnishing Certification",
     "details": "Failure to furnish a certification or provide additional information requested by the Contracting Officer may render the Contractor non-responsible."
   },
   {
     "item": "Drug-Free Workplace Certification",
-    "details": "Contractor must certify compliance with drug-free workplace requirements according to 48 CFR Part 23."
+    "details": "Contractor must certify they will provide a drug-free workplace in accordance with 48 CFR Part 23. This includes publishing a statement, establishing a drug-free awareness program, and notifying employees."
   },
   {
-    "item": "Drug-Free Workplace Statement",
-    "details": "Contractor must publish a statement notifying employees about drug-free workplace policies."
+    "item": "Employee Notification",
+    "details": "Each employee engaged in the performance of the agreement must receive a copy of the drug-free workplace statement."
   },
   {
-    "item": "Drug-Free Awareness Program",
-    "details": "Contractor must establish a drug-free awareness program for employees."
+    "item": "Employee Responsibilities Regarding Drug Convictions",
+    "details": "Employees must notify the employer of any criminal drug statute conviction for a violation occurring in the workplace within five days of the conviction."
   },
   {
-    "item": "Employee Notification of Statement",
-    "details": "Each employee must receive a copy of the drug-free workplace statement."
+    "item": "Employer Notification to Owner",
+    "details": "The contractor must notify the owner within ten days after receiving notice of a drug conviction from an employee."
   },
   {
-    "item": "Employee Agreement",
-    "details": "Employees must agree to abide by the terms of the drug-free workplace statement and notify employer of drug-related convictions."
+    "item": "Action Regarding Employee Drug Convictions",
+    "details": "The contractor must take action within 30 days of receiving notice of an employee's drug conviction."
   },
   {
-    "item": "Notification of Conviction to Owner",
-    "details": "Contractor must notify the OWNER within ten days of receiving notice of an employee's drug-related conviction."
+    "item": "Drug-Free Workplace Requirements",
+    "details": "Contractor must maintain a drug-free workplace, including actions like personnel action against employees using drugs or requiring them to participate in rehabilitation programs."
   },
   {
-    "item": "Action after Conviction Notice",
-    "details": "Contractor must take action within 30 days of receiving notice of an employee's drug-related conviction."
+    "item": "Good Faith Effort for Drug-Free Workplace",
+    "details": "Contractor must make a good faith effort to maintain a drug-free workplace through implementation of specified paragraphs."
   },
   {
-    "item": "Drug-Free Workplace Certification Requirement",
-    "details": "Contractor must certify that they will maintain a drug-free workplace, taking actions against employees convicted of drug offenses and implementing a drug-free awareness program."
+    "item": "Certification Regarding Trafficking in Persons Compliance Plan",
+    "details": "Contractor must certify they have adopted a zero-tolerance policy regarding trafficking in persons, notify employees of the policy, and take action against violators."
   },
   {
-    "item": "Trafficking in Persons Compliance Plan Certification",
-    "details": "Contractor certifies they have adopted a zero-tolerance policy regarding trafficking in persons and will notify employees of the policy and consequences of violation."
+    "item": "Zero Tolerance Policy",
+    "details": "Contractor and employees shall not engage in severe forms of trafficking in persons, procure commercial sex acts, or use forced labor."
   },
   {
-    "item": "Actions against Employees violating Trafficking Policy",
-    "details": "Contractor must take appropriate action, up to and including termination, against employees or subcontractors that violate the zero-tolerance policy on trafficking in persons."
+    "item": "Employee Notification of Zero Tolerance Policy",
+    "details": "Contractor must notify employees of the United States and Saint Regis Mohawk Tribe\u2019s zero-tolerance policy and the actions that will be taken against violators."
   },
   {
-    "item": "Notification of Trafficking Violations",
-    "details": "Contractor must immediately notify the Saint Regis Mohawk Tribe of any information alleging employees or subcontractors engaged in conduct violating the trafficking policy and any actions taken."
+    "item": "Action Against Employees/Subcontractors Violating Trafficking Policy",
+    "details": "Take appropriate action, up to and including termination, against employees or subcontractors that violate the trafficking policy."
+  },
+  {
+    "item": "Notification of Potential Trafficking Violations",
+    "details": "Notify the Saint Regis Mohawk Tribe immediately of any information alleging a contractor's employees, subcontractor, or subcontractor employees has engaged in conduct that violates trafficking policy."
+  },
+  {
+    "item": "Notification of Actions Taken Against Violators",
+    "details": "Notify the Saint Regis Mohawk Tribe immediately of any actions taken against contractor's employees, subcontractor, or subcontractor's employees pursuant to this clause regarding violations of trafficking policy."
   },
   {
     "item": "Anti-Collusion Statement",
-    "details": "Include a statement certifying that the offer was prepared without collusion and in compliance with the Sherman Anti-Trust Act."
+    "details": "Offer must include a statement certifying no collusion in violation of the Sherman Anti-Trust Act."
   },
   {
-    "item": "Anti-Collusion Statement Signature",
-    "details": "Include the printed name of the contractor/company, printed name and title of the authorized representative, signature of the representative, and date signed on the Anti-Collusion Statement."
+    "item": "Authorized Representative Certification",
+    "details": "A duly authorized representative of the Contractor must certify compliance with the Anti-Collusion Statement under penalties of perjury."
   },
   {
-    "item": "Subcontract Clause",
-    "details": "Include the substance of the non-compliance clause in all subcontracts."
+    "item": "Printed Name of Contractor/Company",
+    "details": "Provide the printed name of the Contractor/Company"
   },
   {
-    "item": "Updated CDC Guidance Reference",
-    "details": "Proposals should reflect or align with the updated CDC guidance on respiratory viruses issued March 1st, 2024."
+    "item": "Printed Name and Title of Authorized Representative",
+    "details": "Provide the printed name and title of the authorized representative."
   },
   {
-    "item": "Policy Naming Convention",
-    "details": "Refer to the policy as the 'Respiratory Virus Workplace Safety Policy'."
+    "item": "Signature and Date",
+    "details": "Signature of the representative and date signed are required."
   },
   {
-    "item": "Version Number",
-    "details": "Acknowledge the version number as 011."
+    "item": "Subcontracting Clause",
+    "details": "Include the substance of the clause regarding Contractor compliance and penalties in all subcontracts."
   },
   {
-    "item": "Doctor's Note Requirement",
-    "details": "Sick leave exceeding three days due to COVID, RSV, or influenza requires a doctor's note, consistent with the SRMT Employee Handbook."
+    "item": "Mask Wearing After Return to Work",
+    "details": "A surgical level or higher mask must be worn for 5 calendar days after returning to work."
   },
   {
-    "item": "Return to Work Criteria",
-    "details": "Covered individuals may return to work 24 hours after symptoms improve, and when they have been fever-free for 24 hours without use of medication."
+    "item": "Telecommuting Schedule Approval",
+    "details": "Telecommute schedules must be approved by supervisors ahead of time."
   },
   {
-    "item": "Mask Requirement (Return to Work)",
-    "details": "Surgical level or higher mask required for 5 calendar days upon returning to work."
+    "item": "Telecommuting Response Time",
+    "details": "Employees who are telecommuting must respond in a timely fashion to SRMT colleagues (within 60 minutes, generally) and must be available for phone calls when required."
   },
   {
-    "item": "Telecommuting Arrangements",
-    "details": "Arrangements and expectations established between supervisor and employee; schedules require supervisor approval."
+    "item": "Security of Tribal Property and Data",
+    "details": "Staff are expected to secure all tribal property and data while granted telecommute privileges."
   },
   {
-    "item": "Telecommuting Availability",
-    "details": "Employees must be available and responsive to work duties during designated hours."
+    "item": "Prohibited Use of Tribal Hardware/Software",
+    "details": "Use of tribal hardware and software by family members or any non-employee is prohibited."
   },
   {
-    "item": "Response Time (Telecommuting)",
-    "details": "Employees must respond to SRMT colleagues within 60 minutes (generally) and be available for phone calls."
+    "item": "Consequences of Policy Violations",
+    "details": "Violations of this policy are subject to disciplinary action, up to and including termination."
   },
   {
-    "item": "Security of Tribal Property (Telecommuting)",
-    "details": "Staff are expected to secure all tribal property and data while telecommuting."
+    "item": "Attachment D Reference",
+    "details": "The RFP includes Attachment D: SRMT GENERAL CONTRACT TERMS AND CONDITIONS RFP No. 25-0037"
   },
   {
-    "item": "Prohibited Use of Tribal Property (Telecommuting)",
-    "details": "Use of tribal hardware and software by family members or non-employees is prohibited."
+    "item": "Notice Requirements",
+    "details": "Any notice shall be in writing and may be delivered by hand or by courier, by registered mail, or by facsimile or other electronic means that provides a paper record of the text of the notice, addressed to the Party. Any notice shall be deemed to be effective on the day it is received at that address."
   },
   {
-    "item": "Physical Presence of Leadership",
-    "details": "Division Directors, Program Managers, and other Supervisors are expected to be physically present in the office as much as possible."
+    "item": "Record Keeping and Availability",
+    "details": "Maintain and provide access to all work-related documents, quotations, contracts, correspondence, invoices, receipts, and vouchers for SRMT inspection, copy, or audit."
   },
   {
-    "item": "Additional Program Measures",
-    "details": "Tribal Programs may seek to establish additional, more stringent measures subject to review and approval of the Executive Director."
-  },
-  {
-    "item": "Consequences of Violations",
-    "details": "Violations of the policy are subject to disciplinary action, up to and including termination."
-  },
-  {
-    "item": "Policy Amendments",
-    "details": "The standards will be updated as public health officials provide new information or until the Employee Handbook is updated."
-  },
-  {
-    "item": "Effective Date",
-    "details": "This document shall take effect on the date of adoption by the Executive Director."
-  },
-  {
-    "item": "Record Keeping",
-    "details": "Contractor must keep records of work, quotations, contracts, correspondence, invoices, receipts, and vouchers related to the work."
-  },
-  {
-    "item": "Access to Records",
-    "details": "Contractor must make records available for copy, audit, or inspection by SRMT representatives."
-  },
-  {
-    "item": "Ownership of Materials",
-    "details": "All documents, reports, or other materials developed by the Contractor become the property of SRMT."
+    "item": "Ownership of Materials and Documents",
+    "details": "All documents, reports, or other materials developed are the property of SRMT without usage restrictions."
   },
   {
     "item": "Copyright Assignment",
-    "details": "Contractor assigns all rights, title, and interest in the work, including copyright, to SRMT."
+    "details": "Assign all rights, title, and interest, including copyright, in the work resulting from the services to SRMT."
   },
   {
     "item": "Confidentiality",
-    "details": "Contractor must treat all information as confidential during and after contract performance."
+    "details": "Maintain confidentiality of all information obtained during and after the contract performance."
   },
   {
-    "item": "Authority Limitations",
-    "details": "Contractor does not have the authority to bind SRMT to any agreement."
+    "item": "Contractor's Authority",
+    "details": "Contractor lacks the authority to bind the SRMT into agreements."
   },
   {
     "item": "Conflict of Interest",
-    "details": "Contractor must have no conflicting business, professional, personal, or other interests."
+    "details": "Contractor must not have any conflicting interests (business, professional, personal, etc.) with its obligations."
   },
   {
     "item": "Employee Conflict of Interest",
-    "details": "No SRMT employee with authority over the agreement (or their immediate family) should have a direct or indirect financial interest in it."
+    "details": "No SRMT employee with authority over the agreement or their immediate family should have financial interest in the agreement."
+  },
+  {
+    "item": "Conflict of Interest Disclosure",
+    "details": "Contractor must immediately inform the SRMT Representative if any actual or potential conflict of interest arises."
+  },
+  {
+    "item": "Information Non-Disclosure",
+    "details": "Contractor shall not disclose information gained from the contract to any person or party not participating in the contract in a form that could reasonably be expected to identify the person including individuals, to which such information relates."
+  },
+  {
+    "item": "Advertising Restrictions",
+    "details": "Contractor shall not use services provided under the contract in product literature or advertising without written permission from the SRMT."
+  },
+  {
+    "item": "Contract Amendments",
+    "details": "Changes to the contract must be authorized by a contract amendment issued by the SRMT."
+  },
+  {
+    "item": "Work Scope Limitations",
+    "details": "Contractor is not to perform work in excess of or outside the scope of the contract based on verbal or written requests."
+  },
+  {
+    "item": "Amendment Validity",
+    "details": "No amendment or waiver is valid unless confirmed by a written amendment."
+  },
+  {
+    "item": "Applicable Law",
+    "details": "The contract shall be governed by Saint Regis Mohawk Tribal law. If there is no applicable tribal law, the application of law shall comply with the SRMT Civil Code, Section V."
+  },
+  {
+    "item": "Compliance",
+    "details": "The Contractor represents, warrants and agrees to perform the Work in compliance with all applicable tribal regulations and ordinances, federal, state, and applicable local laws."
+  },
+  {
+    "item": "Jurisdiction",
+    "details": "Contractor consents to jurisdiction in the SRMT Court and to service of process under tribal law in any action commenced regarding this Contract."
   },
   {
     "item": "Conflict of Terms",
-    "details": "In case of conflict between the proposal/quote and the contract, the terms of the contract shall control."
+    "details": "In case of conflict between the proposal/quote and the contract, the contract terms shall control."
   },
   {
     "item": "Exclusion Database Screening",
-    "details": "Contractors must be screened against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database prior to and for the duration of the contract."
+    "details": "Contractors must be screened against the Department of Health & Human Services/Office of Inspector General and The System for Award Management (SAM) exclusion database prior to and during the contract."
   },
   {
     "item": "False Declaration",
-    "details": "If a false declaration is made by the contractor, SRMT has the right to terminate the contract/agreement for default."
+    "details": "SRMT has the right to terminate the contract for default if the contractor made a false declaration."
   },
   {
-    "item": "Acts or Convictions",
-    "details": "The Contractor and its affiliates must remain free and clear of specified acts or convictions during the contract."
+    "item": "Compliance",
+    "details": "The Contractor and its affiliates are required to remain free and clear of any acts or convictions specified herein during this Contract."
   },
   {
     "item": "Native Preference",
-    "details": "Preference for training and employment opportunities to be given to Indians, and preference in subcontract awards to be given to Indian organizations and Indian-owned economic enterprises as defined in 25 U.S. Code \u00a71452."
+    "details": "Preference and opportunities for training and employment in connection with contracts be given to Indians; and preference in the award of subcontracts be given to Indian organizations and Indian-owned economic enterprises as defined in 25 U.S. Code \u00a71452."
   },
   {
     "item": "Electronic Signatures",
-    "details": "Counterparts of the agreement and all ancillary documents may be executed and delivered by facsimile or other electronic signature."
+    "details": "The counterparts of this Agreement and all Ancillary Documents may be executed and delivered by facsimile or other electronic signature."
   },
   {
-    "item": "Certifications",
-    "details": "Contractor must comply with the SRMT Combined Certifications (Certification Regarding Drug Free Work Place, Certification Regarding Debarment, Lobbying Certification, Certification Combating Trafficking in Persons and Anti-Collusion Statement)."
+    "item": "SRMT Combined Certifications Compliance",
+    "details": "Contractor must comply with requirements of the SRMT Combined Certifications, including Certification Regarding Drug Free Work Place, Certification Regarding Debarment, Lobbying Certification, Certification Combating Trafficking in Persons and Anti-Collusion Statement."
   },
   {
-    "item": "Warranty Period",
-    "details": "Materials, equipment, etc., shall be warranted for a period of twelve (12) months or warranted by manufacturer\u2019s warranty, whichever is greater."
+    "item": "Warranty Requirement",
+    "details": "All materials, equipment, etc., shall be warranted for a period of twelve (12) months or warranted by manufacturer\u2019s warranty, whichever is greater."
   },
   {
-    "item": "Rights to Inventions",
-    "details": "Contracts for the performance of experimental, development, or research work shall provide for the rights of the Federal Government and the recipient in any resulting invention in accordance with 37 CFR part 401 and any implementing regulations issued."
+    "item": "Rights to Inventions (Federal Funds)",
+    "details": "Contracts for experimental, development, or research work must address rights to inventions per 37 CFR part 401."
   },
   {
-    "item": "Contract Work Hours and Safety Standards Act Compliance",
-    "details": "Contracts in excess of $2,000 for Construction and $2,500 for other contracts that involve the employment of mechanics or laborers shall comply with Sections 102 and 107 of the Contract Work Hours and Safety Standards Act (40 USC 327-333), as supplemented by Department"
+    "item": "Contract Work Hours and Safety Standards Act (Federal Funds)",
+    "details": "Contracts exceeding $2,000 (Construction) or $2,500 (other) involving mechanics/laborers must comply with 40 U.S.C. 327-333."
   },
   {
     "item": "Termination for Cause",
-    "details": "Either party may terminate the agreement for cause in the event of any default by the other party. SRMT may terminate if the Contractor fails to comply with agreement terms and conditions or fails to provide assurances of future performance upon request."
-  },
-  {
-    "item": "Contractor Liability Upon Termination for Cause",
-    "details": "In the event of termination for cause, the SRMT shall not be liable to the Contractor for any amount for supplies or services not accepted, and the Contractor shall be liable to the SRMT for any and all rights and remedies provided by law."
-  },
-  {
-    "item": "SRMT Improper Termination for Default",
-    "details": "If the SRMT improperly terminated the contract for default, such termination shall be deemed a termination for convenience, so long as the SRMT has complied with the notice provisions set forth."
+    "details": "Either party may terminate the agreement for cause in the event of default by the other party. SRMT may terminate if the Contractor fails to comply with agreement terms or provide assurances of future performance."
   },
   {
     "item": "Correction of Work",
-    "details": "The Contractor shall be obligated to correct any incomplete, inaccurate or defective work at no further cost to the SRMT."
+    "details": "The Contractor is obligated to correct incomplete, inaccurate, or defective work at no further cost to the SRMT."
   },
   {
     "item": "Labor Regulations (29 CFR part 5)",
-    "details": "Contractor shall compute the wages of every mechanic and laborer on the basis of a standard work week of 40 hours. Work in excess of the standard work week is permissible provided that the worker is compensated at the rate of not less than 1-1/2 times the basic rate of pay for all hours worked in excess of 40 hours in the work week."
+    "details": "Contractor shall compute wages for mechanics and laborers based on a 40-hour work week. Overtime (over 40 hours) must be compensated at 1.5 times the basic rate of pay."
   },
   {
     "item": "Working Conditions",
-    "details": "No laborer or mechanic shall be required to work in surroundings or under working conditions which are unsanitary, hazardous or dangerous."
-  },
-  {
-    "item": "Exemptions from Labor Regulations",
-    "details": "These requirements do not apply to the purchases of supplies or materials or articles ordinarily available on the open market, or contracts for transportation or transmission of intelligence."
+    "details": "No laborer or mechanic shall be required to work in unsanitary, hazardous, or dangerous surroundings or under working conditions."
   },
   {
     "item": "Drug Free Workplace, Debarment and Suspension, Lobbying and Executive Order 11246",
-    "details": "Compliance with Drug Free Workplace, Debarment and Suspension, Lobbying and Executive Order 11246 regulations during the performance of this contract."
+    "details": "Compliance with Drug Free Workplace, Debarment and Suspension, Lobbying and Executive Order 11246 requirements is mandatory during the contract performance."
   },
   {
     "item": "Drug Free Workplace Act Certification",
@@ -913,154 +937,102 @@
   },
   {
     "item": "Lobbying Certification",
-    "details": "Contractor must certify compliance with Certification Regarding Lobbying under Section 1352, Title 31 of the U.S. Code."
+    "details": "Contractor must certify compliance with lobbying regulations under Section 1352, Title 31 of the U.S. Code."
   },
   {
     "item": "Equal Employment Opportunity Compliance",
-    "details": "Contractor must comply with Executive Order 11246, Equal Employment Opportunity, as amended, and shall not discriminate based on race, color, religion, sex, or national origin. The contractor should include this provision in every subcontract."
+    "details": "Contractor must comply with the provisions of Executive Order 11246, Equal Employment Opportunity, as amended, and not discriminate based on race, color, religion, sex, or national origin."
   },
   {
-    "item": "Dispute Resolution Negotiation",
-    "details": "All disputes arising under this contract shall be settled by negotiation."
-  },
-  {
-    "item": "Dispute Resolution Written Notice",
-    "details": "If informal negotiation efforts fail, the party asserting non-compliance shall serve written notice on the other party, identifying the specific provisions violated and the factual basis for the alleged non-compliance."
-  },
-  {
-    "item": "Dispute Resolution Timeline",
-    "details": "If the dispute is not resolved within sixty (60) days after service of notice, the parties may agree to pursue mediation."
-  },
-  {
-    "item": "Contractor Performance During Dispute",
-    "details": "Contractor shall proceed diligently with the performance of this contract during dispute resolution."
-  },
-  {
-    "item": "Non-Discrimination Compliance (E.O. 11246)",
-    "details": "Contractor must comply with the provisions of E.O. 11246, as amended, and shall not discriminate against any employee or applicant for employment because of race, color, religion, sex or national origin."
-  },
-  {
-    "item": "Equal Opportunity for Workers with Disabilities",
-    "details": "Contractor shall abide by the requirements of the equal opportunity clause at 41 CFR 60-741.5(a), as of March 24, 2014, prohibiting discrimination against qualified individuals on the basis of disability and requiring affirmative action."
-  },
-  {
-    "item": "Subcontracting Requirements (Workers with Disabilities)",
-    "details": "The Contractor shall include the terms of the equal opportunity for workers with disabilities clause in every subcontract or purchase order in excess of $15,000."
+    "item": "Subcontractor EEO Clause",
+    "details": "The Contractor shall include the Equal Employment Opportunity subsection in every subcontract."
   },
   {
     "item": "Successors and Assigns",
-    "details": "The Contract shall enure to the benefit of, and shall be binding upon, the successors and permitted assignees of the SRMT and of the Contractor."
+    "details": "The contract shall enure to the benefit of, and shall be binding upon, the successors and permitted assignees of the SRMT and of the Contractor."
   },
   {
-    "item": "Minority and Women-Owned Business Enterprises (MWBE)",
-    "details": "Contractor agrees to make every good faith effort to promote and assist the participation of certified Minority and women-owned Business enterprises (MWBEs) as subcontractors and suppliers."
+    "item": "MWBE Participation",
+    "details": "The Contractor agrees to make every good faith effort to promote and assist the participation of certified Minority and women-owned Business enterprises (MWBEs) as subcontractors and suppliers on this contract."
   },
   {
     "item": "Equal Opportunity for Veterans",
-    "details": "Compliance with the Equal Opportunity for Veterans clause (Oct 2015)."
+    "details": "Compliance with definitions and regulations related to veterans (Active duty wartime or campaign badge veteran, Armed Forces service medal veteran, disabled veteran, protected veteran, qualified disabled veteran, and recently separated veteran)."
   },
   {
-    "item": "Safety Provisions Familiarization",
-    "details": "Contractor must thoroughly familiarize themselves with safety provisions."
+    "item": "Safety Provisions",
+    "details": "The more stringent safety requirement shall be followed in case of conflict. Contractor's failure to familiarize themselves with the safety provisions shall not relieve them from compliance."
   },
   {
-    "item": "Replacement of Personnel",
-    "details": "Specific personnel named in the Agreement must perform the Work unless the Consultant/Contractor is unable to do so for reasons beyond its control."
+    "item": "Personnel Replacement",
+    "details": "If specific persons have been named in the Agreement as the persons who must perform the Work, the Contractor shall provide the services of the persons so named unless the Consultant/Contractor is unable to do so for reasons beyond its control."
   },
   {
     "item": "Equal Opportunity Clause Compliance",
-    "details": "Contractor must abide by the equal opportunity clause at 41 CFR 50-300.5(a) as of March 24, 2014, prohibiting discrimination against qualified protected veterans and requiring affirmative action to employ and advance them."
+    "details": "Contractor must abide by the equal opportunity clause at 41 CFR 50-300.5(a), as of March 24, 2014."
   },
   {
-    "item": "Subcontracting Clause",
+    "item": "Subcontract Inclusion",
     "details": "The Contractor shall insert the terms of the equal opportunity clause in subcontracts of $150,000 or more."
   },
   {
     "item": "Deficit Reduction Act (DRA) Compliance",
-    "details": "Contractors, agents, vendors, and employees must comply with federal DRA requirements."
+    "details": "Contractors, agents, vendors and employees must comply with the federal DRA."
   },
   {
     "item": "Replacement Person Notification",
-    "details": "Contractor must provide written notice to the SRMT at least 30 days (where possible) in advance of a replacement person commencing work. The notice must include the reason for removal and the replacement's qualifications and experience."
+    "details": "Provide at least thirty (30) days advance notice in writing to the SRMT before a replacement person commences work, where possible."
   },
   {
-    "item": "SRMT Review of Replacement Person",
-    "details": "SRMT has 15 calendar days after receipt of the notice to review the proposed replacement person. If no notification is received within this period, the proposal is considered accepted."
+    "item": "Replacement Person Notification Content",
+    "details": "The notification must include: i) the reason for the removal of the named person from the Work; and ii) the name, qualifications and experience of the proposed replacement person."
   },
   {
-    "item": "Unauthorized Replacement Persons",
-    "details": "The Consultant/Contractor shall not allow performance of the Work by unauthorized replacement persons."
+    "item": "SRMT Review Period",
+    "details": "SRMT has fifteen (15) calendar days after receipt of the replacement person notice to review and accept the proposed replacement."
   },
   {
-    "item": "Corporate Compliance Plan Compliance",
-    "details": "Consultant/Contractor must comply with SRMT's Corporate Compliance Plan available at https://dvc479a3doke3.cloudfront.net/_uploads/environment/FCAContractorVendorAgent-Letter1_2022.pdf."
+    "item": "SRMT Acceptance Default",
+    "details": "If the Consultant/Contractor is not notified within this 15-day period, the proposal shall be considered as having been accepted."
   },
   {
-    "item": "\"DRA\" Clause in Sub-contracts",
-    "details": "Include the \"DRA\" clause in all Contractor's sub-contracts."
+    "item": "Unauthorized Replacement",
+    "details": "In no event shall the Consultant/Contractor allow performance of the Work by unauthorized replacement persons."
+  },
+  {
+    "item": "Compliance with SRMT's Corporate Compliance Plan",
+    "details": "Consultant/Contractor and those involved in monitoring of health care must comply with SRMT\u2019s Corporate Compliance Plan, found at https://dvc479a3doke3.cloudfront.net/_uploads/environment/FCAContractorVendorAgent-Letter1_2022.pdf."
+  },
+  {
+    "item": "\"DRA\" Clause Inclusion in Sub-contracts",
+    "details": "Include the \u201cDRA\u201d clause in all Contractor\u2019s sub-contracts."
   },
   {
     "item": "Compliance with Federal Requirements",
-    "details": "Comply with all applicable Federal requirements outlined in CFR Appendix II to Part 200."
+    "details": "Contractor represents, warrants and agrees to comply with all applicable Federal requirements, including Rights to Inventions (37 CFR Part 401), Contract Work Hours and Safety Standards Act (40 U.S.C. 327-333), Copeland Anti-Kickback Act (18 USC \u00a7 874), Clean Air Act (42 USC \u00a77401-7461q.), Federal Water Pollution Control Act (33 USC \u00a7251-1387), CFR 200.322 Domestic Preference for Procurements, and CFR Appendix II to Part 200."
   },
   {
-    "item": "Rights to Inventions",
-    "details": "Compliance with 37 CFR Part 401 (Rights to Inventions)."
+    "item": "Safety and Protection",
+    "details": "Contractor will be responsible for initiating, maintaining and supervising all safety precautions and programs in connection with the Work. Contractor will take all necessary precautions for the safety of and will provide the necessary protection to prevent damage, injury or loss to all employees at the work site and all other persons who may"
   },
   {
-    "item": "Contract Work Hours and Safety Standards Act",
-    "details": "Compliance with 40 U.S.C. 327-333 (Contract Work Hours and Safety Standards Act) where applicable."
+    "item": "OSHA Compliance",
+    "details": "Must conform to U.S. Department of Labor (OSHA) standards."
   },
   {
-    "item": "Copeland Anti-Kickback Act",
-    "details": "Compliance with 18 USC \u00a7 874 and 29 CFR Part 3 (Copeland Anti-Kickback Act)."
+    "item": "Legal Compliance",
+    "details": "Must conform to all other applicable Federal, State, County, and local laws."
   },
   {
-    "item": "Clean Air Act and Federal Water Pollution Control Act",
-    "details": "Compliance with 42 USC \u00a77401-7461q and 33 USC \u00a7251-1387 (Clean Air Act and Federal Water Pollution Control Act)."
+    "item": "Tribal Law Compliance (if applicable)",
+    "details": "Must conform to Tribal laws, ordinances, and codes, if applicable."
   },
   {
-    "item": "Domestic Preference for Procurements",
-    "details": "Compliance with CFR 200.322 (Domestic Preference for Procurements)."
+    "item": "Contract Requirements",
+    "details": "Must conform to the requirements set forth in the contract."
   },
   {
-    "item": "Safety and Protection of Work",
-    "details": "Contractor will be responsible for initiating, maintaining and supervising all safety precautions and programs in connection with the Work."
-  },
-  {
-    "item": "Protection of Persons and Property",
-    "details": "Contractor will take all necessary precautions for the safety of and will provide the necessary protection to prevent damage, injury or loss to all employees at the work site and all other persons who may be present."
-  },
-  {
-    "item": "Respiratory Virus Workplace Safety Policy Compliance",
-    "details": "Contractor shall conform to the SRMT\u2019s Respiratory Virus Workplace Safety Policy and Contractor\u2019s Safety Policy, and this shall be made a condition of each subcontract."
-  },
-  {
-    "item": "Protection of Existing Vegetation, Structures, Equipment, Utilities, and Improvements",
-    "details": "The Contractor shall preserve and protect all structures, equipment, and vegetation on or adjacent to the work sites, which are not to be removed and which do not unreasonably interfere with the work required under this Contract."
-  },
-  {
-    "item": "Tree Removal Authorization",
-    "details": "The Contractor shall remove trees only when specifically authorized to do so."
-  },
-  {
-    "item": "Damage Repair Responsibility",
-    "details": "The Contractor shall repair any damage to existing improvements and utilities resulting from failure to comply with the requirements of this Contract or failure to exercise reasonable care in performing the work."
-  },
-  {
-    "item": "Accident Prevention and Safety Program",
-    "details": "The Contractor shall be solely and completely responsible for conditions of the job site, including safety of all persons, employees, and property during performance of the work."
-  },
-  {
-    "item": "Compliance with Laws and Regulations",
-    "details": "Comply with U.S. Department of Labor (OSHA), all applicable Federal, State, County, and local laws (if applicable), and Tribal laws, ordinances, codes, and regulations."
-  },
-  {
-    "item": "Document Version",
-    "details": "Document version is V6, October 2023"
-  },
-  {
-    "item": "Page Number",
-    "details": "Example Page number is 3 of 3"
+    "item": "Regulations Compliance",
+    "details": "Must conform to any regulations that may be detailed in other parts of the contract."
   }
 ]
