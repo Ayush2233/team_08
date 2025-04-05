@@ -1,0 +1,60 @@
+{
+    "Company": {
+      "LegalName": "FirstStaff Workforce Solutions, LLC",
+      "PrincipalBusinessAddress": "3105 Maple Avenue, Suite 1200, Dallas, TX 75201",
+      "PhoneNumber": "(214) 832-4455",
+      "FaxNumber": "(214) 832-4460",
+      "EmailAddress": "proposals@firststaffsolutions.com",
+      "AuthorizedRepresentative": {
+        "Name": "Meredith Chan",
+        "Title": "Director of Contracts",
+        "Phone": "(212) 555-0199",
+        "Signature": "Meredith Chan (signed manually)"
+      },
+      "LengthOfExistenceYears": 9,
+      "YearsOfExperienceInTemporaryStaffing": 7,
+      "DUNSNumber": "07-842-1490",
+      "CAGECode": "8J4T7",
+      "SAMRegistrationDate": "03/01/2022",
+      "NAICSCodes": [
+        "561320 – Temporary Help Services",
+        "541611 – Admin Management"
+      ],
+      "StateOfIncorporation": "Delaware",
+      "BankLetterOfCreditworthiness": "Not Available",
+      "StateRegistrationNumber": "SRN-DE-0923847",
+      "ServicesProvided": [
+        "Administrative",
+        "IT",
+        "Legal & Credentialing Staffing"
+      ],
+      "BusinessStructure": "Limited Liability Company (LLC)",
+      "W9Form": {
+        "Attached": true,
+        "TIN": "47-6392011"
+      },
+      "CertificateOfInsurance": {
+        "Provider": "Travelers Insurance",
+        "PolicyNumber": "TX-884529-A",
+        "Coverage": [
+          "Workers' Comp",
+          "Liability",
+          "Auto"
+        ]
+      },
+      "Licenses": [
+        {
+          "Type": "Texas Employment Agency License",
+          "Number": "TXEA-34892"
+        }
+      ],
+      "HistoricallyUnderutilizedBusinessOrDBEStatus": "Not certified",
+      "MBECertification": "No",
+      "KeyPersonnel": {
+        "ProjectManager": "Ramesh Iyer",
+        "TechnicalLead": "Sarah Collins",
+        "SecurityAuditor": "James Wu"
+      }
+    }
+  }
+  
