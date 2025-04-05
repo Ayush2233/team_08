@@ -1,6 +1,7 @@
 import json
 import docx
 import fitz
+import pdfplumber
 
 def load_json(file_path: str) -> dict:
     with open(file_path, 'r') as f:
@@ -30,3 +31,13 @@ def parse_pdf(file_path: str) -> str:
     for page in doc:
         full_text += page.get_text() + "\n"
     return full_text
+
+
+def load_rfp_text(file_path):
+    all_text = ""
+    with pdfplumber.open(file_path) as pdf:
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:
+                all_text += text + "\n"
+    return all_text
