@@ -8,13 +8,9 @@ from utils.fileparser import load_rfp_text
 
 
 class SubmissionChecklistGenerator:
-    def __init__(self, rfp_file):
-        self.rfp_file = rfp_file
+    def __init__(self,rfp_text):
+        self.rfp_text=rfp_text
         genai.configure(api_key=GEMINI_API_KEY)
-
-    def load_rfp(self):
-        """Loads the full RFP text from the specified file."""
-        return load_rfp_text(self.rfp_file)
 
     def chunk_rfp_text(self, rfp_text, max_chunk_size=2000):
         """Splits the RFP text into chunks of max_chunk_size characters."""
@@ -60,13 +56,13 @@ class SubmissionChecklistGenerator:
                 response = model.generate_content(prompt)
                 return response.text
             except google.api_core.exceptions.ResourceExhausted as e:
-                print(f"❌ Quota exceeded. Retrying in {delay} seconds... (Attempt {attempt + 1}/{retries})")
+                print(f"Quota exceeded. Retrying in {delay} seconds... (Attempt {attempt + 1}/{retries})")
                 time.sleep(delay)
                 delay *= 2
             except Exception as e:
-                print(f"❌ Error: {e}")
+                print(f"Error: {e}")
                 break
-        print("❌ All retries failed. Please check your API quota.")
+        print("All retries failed. Please check your API quota.")
         return ""
 
     def clean_response(self, text):
@@ -89,7 +85,7 @@ class SubmissionChecklistGenerator:
         try:
             return json.loads(text)
         except json.JSONDecodeError as e:
-            print(f"❌ Error parsing JSON: {e}")
+            print(f"Error parsing JSON: {e}")
             return None
 
     def save_checklist(self, checklist):
@@ -97,34 +93,32 @@ class SubmissionChecklistGenerator:
         try:
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 json.dump(checklist, f, indent=2)
-            print(f"✅ Checklist saved to {OUTPUT_FILE}")
+            print(f"Checklist saved to {OUTPUT_FILE}")
         except Exception as e:
-            print(f"❌ Error saving checklist: {e}")
+            print(f"Error saving checklist: {e}")
 
     def generate_checklist(self):
-        """Executes the workflow for generating the submission checklist."""
-        rfp_text = self.load_rfp()
-        print("📄 RFP Loaded. Length:", len(rfp_text))
-        chunks = self.chunk_rfp_text(rfp_text)
-        print(f"🧠 Split RFP into {len(chunks)} chunks.")
+
+        chunks = self.chunk_rfp_text(self.rfp_text)
+        print(f"Split RFP into {len(chunks)} chunks.")
 
         full_checklist = []
         for i, chunk in enumerate(chunks):
-            print(f"\n🔍 Processing chunk {i+1} of {len(chunks)}...")
+            print(f"Processing chunk {i+1} of {len(chunks)}...")
             prompt = self.build_prompt(chunk)
-            print("🚀 Calling Gemini API...")
+            print("Calling Gemini API...")
             response_text = self.call_gemini(prompt)
             if not response_text.strip():
-                print(f"❌ Empty response from Gemini for chunk {i+1}. Skipping...")
+                print(f"Empty response from Gemini for chunk {i+1}. Skipping...")
                 continue
             print("🧹 Cleaning response...")
             cleaned = self.clean_response(response_text)
             checklist = self.parse_response(cleaned)
             if checklist is None:
-                print(f"❌ Failed to parse JSON for chunk {i+1}.")
+                print(f"Failed to parse JSON for chunk {i+1}.")
                 continue
             full_checklist.extend(checklist)
-            print("✅ Chunk processed successfully.")
+            print("Chunk processed successfully.")
 
         return full_checklist
 
@@ -138,12 +132,3 @@ class SubmissionChecklistGenerator:
         checklist = self.generate_checklist()
         self.save_checklist(checklist)
         return checklist
-
-# def main():
-#     generator = SubmissionChecklistGenerator(RFP_FILE)
-#     final_checklist = generator.execute()
-#     print("\nFinal Combined Checklist:")
-#     print(json.dumps(final_checklist, indent=2))
-
-# if __name__ == "__main__":
-#     main()

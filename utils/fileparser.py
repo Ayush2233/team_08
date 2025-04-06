@@ -41,3 +41,20 @@ def load_rfp_text(file_path):
             if text:
                 all_text += text + "\n"
     return all_text
+
+
+def parse_pdf_streamlit(file_obj):
+    """
+    Parse PDF text from a file-like object (e.g., uploaded file from Streamlit).
+    """
+    try:
+        # Read the file bytes from the file-like object
+        file_bytes = file_obj.read()
+        # Open the document from bytes. The "pdf" argument specifies the file type.
+        doc = fitz.open("pdf", file_bytes)
+        full_text = ""
+        for page in doc:
+            full_text += page.get_text() + "\n"
+        return full_text
+    except Exception as e:
+        raise Exception(f"Error parsing PDF: {e}")

@@ -1,28 +1,128 @@
+import streamlit as st
+import os
 import json
+from utils.fileparser import parse_pdf_streamlit  # For uploaded PDF files
 from agents.eligiblity import EligibilityAgent
-from agents.checklist import SubmissionChecklistGenerator
-from utils.fileparser import parse_pdf
+from agents.checklist import SubmissionChecklistGenerator  # Ensure implemented
+from agents.report_agent import DetailedReportAgent
+from agents.risk_assessment import RiskAssessmentAgent
+from utils.RAGretriver import RAGretriver  # For chatbot functionality
+import torch
+torch.classes.__path__ = []
 
-def main():
-    # Path to the attached RFP PDF
-    rfp_pdf_path = "./data/IN-ELIGIBLE_RFP.pdf"
+st.set_page_config(page_title="RFP Analysis, Detailed Report & Chatbot", layout="wide")
+st.title("RFP Analysis, Detailed Report & Chatbot")
 
-    generator = SubmissionChecklistGenerator(rfp_pdf_path)
-    final_checklist = generator.execute()
-    print("Final Combined Checklist:")
-    print(json.dumps(final_checklist, indent=2))
-    
-    # # Extract full text from the PDF
-    # rfp_text = parse_pdf(rfp_pdf_path)
-    # print("Extracted RFP Text Preview:")
-    # print(rfp_text[:500])  # Debug preview
+st.markdown("""
+<style>
+.big-font {
+    font-size:20px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
-    # # Initialize the EligibilityAgent and execute the full workflow
-    # eligibility_agent = EligibilityAgent()
-    # final_report = eligibility_agent.execute(rfp_text)
-    
-    # print("\nFinal Detailed Eligibility Report with Feedback:")
-    # print(json.dumps(final_report, indent=2))
+st.write("""
+**Upload an RFP PDF** and let our system process it.  
+In the **Detailed Report** tab, the document is analyzed to produce:  
+- An eligibility report  
+- A structured submission checklist  
+- A detailed report with actionable recommendations  
 
-if __name__ == "__main__":
-    main()
+In the **Chatbot** tab, you can ask questions about the document and receive answers based on its content.
+""")
+
+uploaded_file = st.file_uploader("Upload your RFP PDF", type=["pdf"])
+
+if uploaded_file is not None:
+    try:
+        rfp_text = parse_pdf_streamlit(uploaded_file)
+    except Exception as e:
+        st.error(f"Error reading file: {e}")
+        rfp_text = None
+
+    if rfp_text:
+        st.success("RFP loaded successfully!")
+        st.subheader("RFP Preview (first 1000 characters)")
+        st.text_area("RFP Preview", rfp_text[:1000], height=200)
+
+        # Initialize tabs
+        tabs = st.tabs(["Detailed Report", "Chatbot"])
+
+        # Detailed Report Tab
+        with tabs[0]:
+            st.subheader("Generate Detailed Report")
+            if st.button("Generate Report"):
+                with st.spinner("Analyzing RFP... This may take a moment."):
+                    # Initialize agents for detailed report generation
+                    eligibility_agent = EligibilityAgent()
+                    checklist_agent = SubmissionChecklistGenerator(rfp_text)
+                    detailed_report_agent = DetailedReportAgent()
+                    risk_agent = RiskAssessmentAgent() 
+                    
+                    # Execute analysis using the agents
+                    eligibility_report = eligibility_agent.execute(rfp_text)
+                    submission_checklist = checklist_agent.execute()
+                    # If you want to include risk analysis, uncomment:
+                    risk_report = risk_agent.execute(rfp_text)
+                    
+                    # Generate the formatted detailed Markdown report
+                    markdown_report = detailed_report_agent.generate_formatted_report(
+                        eligibility_report, submission_checklist,risk_report
+                    )
+                    
+                    st.subheader("Aggregated Eligibility Report")
+                    st.json(eligibility_report)
+                    st.subheader("Submission Checklist")
+                    st.json(submission_checklist)
+                    st.subheader("Detailed Report (Markdown)")
+                    st.markdown(markdown_report, unsafe_allow_html=True)
+                    
+                    # Store outputs in session state for later feedback and export
+                    final_output = {
+                        "eligibility_report": eligibility_report,
+                        "submission_checklist": submission_checklist,
+                        "risk_report":risk_report,
+                        "detailed_report": markdown_report
+                    }
+                    st.session_state["final_output"] = final_output
+
+            st.markdown("---")
+            st.subheader("Provide Feedback on the Report")
+            user_feedback = st.text_area("Your Feedback (e.g., flag false positives, missing criteria, suggestions):", height=150)
+            if st.button("Submit Feedback"):
+                if "final_output" in st.session_state:
+                    st.session_state["final_output"]["feedback"] = user_feedback
+                    st.success("Feedback submitted!")
+                    st.subheader("Final Combined Report with Feedback")
+                    st.json(st.session_state["final_output"])
+                else:
+                    st.warning("Please generate the report first.")
+
+        # Chatbot Tab
+        with tabs[1]:
+            st.subheader("Chat with the RFP Document")
+            # Initialize the RAG retriever only once and store it in session state
+            if "retriever" not in st.session_state:
+                temp_pdf_path = "temp_uploaded.pdf"
+                with open(temp_pdf_path, "wb") as f:
+                    f.write(uploaded_file.getbuffer())
+                retriever = RAGretriver(temp_pdf_path)
+                with st.spinner("Loading document and initializing vector store..."):
+                    retriever.load_doc()
+                    retriever.init_vectorstore()
+                st.session_state["retriever"] = retriever
+                st.success("Document loaded and vector store initialized.")
+            else:
+                st.success("Using previously initialized vector store.")
+            
+            user_query = st.text_input("Enter your question about the RFP:")
+            if st.button("Get Answer"):
+                if user_query:
+                    with st.spinner("Retrieving answer..."):
+                        answer = st.session_state["retriever"].RAG_Retrieve(user_query)
+                        st.subheader("Chatbot Answer")
+                        st.write(answer)
+                else:
+                    st.warning("Please enter a query.")
+else:
+    st.info("Please upload an RFP PDF to begin the analysis.")
