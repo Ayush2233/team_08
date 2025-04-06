@@ -10,7 +10,9 @@ import tiktoken
 import os
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from config import PINECONE_KEY, OPENROUTER_KEY
+from config import PINECONE_KEY, OPENROUTER_KEY,GEMINI_API_KEY
+import google.generativeai as genai
+import time
 
 os.environ['PINECONE_API_KEY'] = PINECONE_KEY
 os.environ['OPENROUTER_API_KEY'] = OPENROUTER_KEY
@@ -29,8 +31,35 @@ except Exception as e:
     print("Error initializing embeddings:", e)
 
 
+# Initialize once globally
+genai.configure(api_key=GEMINI_API_KEY)
+gemini_model = genai.GenerativeModel("gemini-2.0-flash-lite")  # Or gemini-2.0-flash
 
-index_name = "consultaddhackathonchatbot33"
+def call_gemini(prompt, retries=5, delay=10, temperature=0.3):
+    for attempt in range(retries):
+        try:
+            response = gemini_model.generate_content(prompt, generation_config={"temperature": temperature})
+
+            if not response.candidates:
+                print("No candidates returned.")
+                return ""
+
+            if response.candidates[0].finish_reason == "RECITATION":
+                print("Blocked content. Skipping.")
+                return ""
+
+            return response.text.strip() if hasattr(response, "text") else "".join([p.text for p in response.parts])
+
+        except Exception as e:
+            if "requires the response to contain a valid `Part`" in str(e):
+                print("Recitation block detected. Skipping.")
+                return ""
+            print(f"Gemini error: {e}. Retrying in {delay}s (Attempt {attempt+1}/{retries})...")
+            time.sleep(delay)
+            delay *= 2
+    return ""
+
+index_name = "consultaddhackathonchatbotasdsad33"
 namespace = "pdfdata1"
 
 class RAGretriver:
@@ -99,14 +128,6 @@ class RAGretriver:
         )
 
         contexts = [match['metadata'].get("text", "") + "\n" + match.get("id", "") for match in top_matches['matches']]
-        augmented_query = "<CONTEXT>\n" + "\n\n-------\n\n".join(contexts[:10]) + "\n-------\n</CONTEXT>\n\n\n\nMY QUESTION:\n" + query
+        augmented_query = "You are a knowledgeable assistant. Answer questions using only the provided PDF content. use facts from the document and give detailed response in bullet points <CONTEXT>\n" + "\n\n-------\n\n".join(contexts[:10]) + "\n-------\n</CONTEXT>\n\n\n\nMY QUESTION:\n" + query
 
-        primer = """You are a knowledgeable assistant. Answer questions using only the provided PDF content. Be precise, clear, and use facts from the document."""
-        res = openrouter_client.chat.completions.create(
-            model="mistralai/mistral-nemo",
-            messages=[
-                {"role": "system", "content": primer},
-                {"role": "user", "content": augmented_query}
-            ]
-        )
-        return res.choices[0].message.content
+        return call_gemini(augmented_query)

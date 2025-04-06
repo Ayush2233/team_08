@@ -42,19 +42,19 @@ class RiskAssessmentAgent:
         Builds the Gemini prompt using your specified prompt format.
         """
         prompt = f"""
-You are a legal analyst AI reviewing contract clauses and performing risk assessment. Review the below contract 
-in terms of contract risks and identify biased clauses that could put an organization at a disadvantage (e.g., unilateral termination rights).
-Suggest modifications to balance contract terms (e.g., adding a notice period for termination).
+            You are a legal analyst AI reviewing contract clauses and performing risk assessment. Review the below contract 
+            in terms of contract risks and identify biased clauses that could put an organization at a disadvantage (e.g., unilateral termination rights).
+            Suggest modifications to balance contract terms (e.g., adding a notice period for termination).
 
-Contract: "{clause}"
+            Contract: "{clause}"
 
-Return ONLY a JSON in this format:
+            Return ONLY a JSON in this format:
 
-{{
-  "final_risk": "<Best fitting risk category>",
-  "justification": "<Short explanation>",
-  "suggestions": "<Suggestions to balance contract terms>"
-}}
+            {{
+            "final_risk": "<Best fitting risk category>",
+            "justification": "<Short explanation>",
+            "suggestions": "<Suggestions to balance contract terms>"
+            }}
 """
         return prompt
 

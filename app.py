@@ -2,18 +2,20 @@ import streamlit as st
 import os
 import json
 import pymongo
-from utils.fileparser import parse_pdf_streamlit  # For uploaded PDF files
+from utils.fileparser import parse_pdf_streamlit
 from agents.eligiblity import EligibilityAgent
-from agents.checklist import SubmissionChecklistGenerator  # Ensure implemented
+from agents.checklist import SubmissionChecklistGenerator
 from agents.report_agent import DetailedReportAgent
 from agents.risk_assessment import RiskAssessmentAgent
-from utils.RAGretriver import RAGretriver  # For chatbot functionality
+from utils.RAGretriver import RAGretriver
 import torch
+from agents.proposal_writer import ProposalWriterAgent
+from utils.text_utils import markdown_to_docx 
 torch.classes.__path__ = []
 
+# MongoDB uploader
 def upload_to_mongodb(data):
     try:
-        # Replace <db_password> with your actual password or fetch from environment variables
         connection_string = "mongodb+srv://apurva:apurva123@cluster0.0nmuvte.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         client = pymongo.MongoClient(connection_string)
         db = client["consultadd"]
@@ -24,30 +26,65 @@ def upload_to_mongodb(data):
         st.error(f"Error uploading to MongoDB: {e}")
         return None
 
+# Page setup
+st.set_page_config(page_title="📄 RFP Analysis & Chatbot", layout="wide")
 
-
-st.set_page_config(page_title="RFP Analysis, Detailed Report & Chatbot", layout="wide")
-st.title("RFP Analysis, Detailed Report & Chatbot")
-
+# Custom styling
 st.markdown("""
-<style>
-.big-font {
-    font-size:20px !important;
-}
-</style>
+    <style>
+        html, body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .report-box {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .chatbot-box {
+            background-color: #f2f0fc;
+            border-left: 5px solid #6a0dad;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        .feedback-box {
+            background-color: #fdf4ff;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+       
+        .report-box {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            color: #222222; /* <-- fix white text issue */
+        }
+
+    </style>
 """, unsafe_allow_html=True)
 
-st.write("""
-**Upload an RFP PDF** and let our system process it.  
-In the **Detailed Report** tab, the document is analyzed to produce:  
-- An eligibility report  
-- A structured submission checklist  
-- A detailed report with actionable recommendations  
+# Sidebar for chatbot
+st.sidebar.header("💬 Chat with your RFP")
+st.sidebar.markdown("Ask specific questions about the RFP document after uploading it.")
+chat_query = st.sidebar.text_input("Your Question:")
+if st.sidebar.button("Get Answer"):
+    if "retriever" in st.session_state and chat_query:
+        with st.spinner("Retrieving answer..."):
+            answer = st.session_state["retriever"].RAG_Retrieve(chat_query)
+            st.sidebar.success("Answer:")
+            st.sidebar.write(answer)
+    else:
+        st.sidebar.warning("Please upload an RFP and initialize the chatbot.")
 
-In the **Chatbot** tab, you can ask questions about the document and receive answers based on its content.
-""")
+# Main header
+st.title("📄 RFP Analysis & Detailed Insights")
+st.markdown("Upload an **RFP PDF**, and let our system generate a full breakdown:")
 
-uploaded_file = st.file_uploader("Upload your RFP PDF", type=["pdf"])
+# File upload
+uploaded_file = st.file_uploader("📤 Upload your RFP (PDF Only)", type=["pdf"])
 
 if uploaded_file is not None:
     try:
@@ -57,90 +94,96 @@ if uploaded_file is not None:
         rfp_text = None
 
     if rfp_text:
-        st.success("RFP loaded successfully!")
-        st.subheader("RFP Preview (first 1000 characters)")
-        st.text_area("RFP Preview", rfp_text[:1000], height=200)
+        st.success("✅ RFP loaded successfully!")
+        st.subheader("📑 RFP Preview")
+        st.text_area("Preview (first 1000 characters)", rfp_text[:1000], height=200)
 
-        # Initialize tabs
-        tabs = st.tabs(["Detailed Report", "Chatbot"])
+        tab1, tab2, tab3 = st.tabs(["📋 Detailed Report", "📝 Feedback & Submission", "🧾 Proposal Document"])
 
-        # Detailed Report Tab
-        with tabs[0]:
-            st.subheader("Generate Detailed Report")
+        with tab1:
+            st.subheader("🔍 Analyze the RFP")
             if st.button("Generate Report"):
-                with st.spinner("Analyzing RFP... This may take a moment."):
-                    # Initialize agents for detailed report generation
+                with st.spinner("Analyzing the RFP..."):
                     eligibility_agent = EligibilityAgent()
                     checklist_agent = SubmissionChecklistGenerator(rfp_text)
                     detailed_report_agent = DetailedReportAgent()
-                    risk_agent = RiskAssessmentAgent() 
+                    risk_agent = RiskAssessmentAgent()
                     
-                    # Execute analysis using the agents
                     eligibility_report = eligibility_agent.execute(rfp_text)
                     submission_checklist = checklist_agent.execute()
-                    # If you want to include risk analysis, uncomment:
                     risk_report = risk_agent.execute(rfp_text)
-                    
-                    # Generate the formatted detailed Markdown report
+
                     markdown_report = detailed_report_agent.generate_formatted_report(
-                        eligibility_report, submission_checklist,risk_report
+                        eligibility_report, submission_checklist, risk_report
                     )
-                    
-                    st.subheader("Aggregated Eligibility Report")
-                    st.json(eligibility_report)
-                    st.subheader("Submission Checklist")
-                    st.json(submission_checklist)
-                    st.subheader("Detailed Report (Markdown)")
-                    st.markdown(markdown_report, unsafe_allow_html=True)
-                    
-                    # Store outputs in session state for later feedback and export
+
+                    proposal_agent = ProposalWriterAgent()
+                    generated_proposal = proposal_agent.generate_proposal(
+                        eligibility_report,
+                        submission_checklist,
+                        risk_report,
+                        markdown_report
+                    )
+
                     final_output = {
                         "eligibility_report": eligibility_report,
                         "submission_checklist": submission_checklist,
-                        "risk_report":risk_report,
-                        "detailed_report": markdown_report
+                        "risk_report": risk_report,
+                        "detailed_report": markdown_report,
+                        "proposal":generated_proposal
                     }
                     st.session_state["final_output"] = final_output
 
-            st.markdown("---")
-            st.subheader("Provide Feedback on the Report")
-            user_feedback = st.text_area("Your Feedback (e.g., flag false positives, missing criteria, suggestions):", height=150)
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.markdown("#### ✅ Aggregated Eligibility")
+                        st.json(eligibility_report)
+                        st.markdown("#### 📌 Submission Checklist")
+                        st.json(submission_checklist)
+
+                    with col2:
+                        st.markdown("#### 🧾 Complete Report")
+                        st.markdown(f"<div class='report-box'>{markdown_report}</div>", unsafe_allow_html=True)
+
+        with tab2:
+            st.subheader("📬 Provide Feedback & Save Report")
+            feedback = st.text_area("Your Feedback", placeholder="Flag issues or suggest improvements...", height=150)
             if st.button("Submit Feedback"):
                 if "final_output" in st.session_state:
-                    st.session_state["final_output"]["feedback"] = user_feedback
-                    st.success("Feedback submitted!")
-                    st.subheader("Final Combined Report with Feedback")
-                    st.json(st.session_state["final_output"])
-                    with st.spinner("Uploading to DB"):
-                        inserted_id = upload_to_mongodb(dict(st.session_state["final_output"]))
-                else:
-                    st.warning("Please generate the report first.")
+                    st.session_state["final_output"]["feedback"] = feedback
+                    st.success("✅ Feedback submitted!")
 
-        # Chatbot Tab
-        with tabs[1]:
-            st.subheader("Chat with the RFP Document")
-            # Initialize the RAG retriever only once and store it in session state
-            if "retriever" not in st.session_state:
-                temp_pdf_path = "temp_uploaded.pdf"
-                with open(temp_pdf_path, "wb") as f:
-                    f.write(uploaded_file.getbuffer())
-                retriever = RAGretriver(temp_pdf_path)
-                with st.spinner("Loading document and initializing vector store..."):
-                    retriever.load_doc()
-                    retriever.init_vectorstore()
-                st.session_state["retriever"] = retriever
-                st.success("Document loaded and vector store initialized.")
-            else:
-                st.success("Using previously initialized vector store.")
-            
-            user_query = st.text_input("Enter your question about the RFP:")
-            if st.button("Get Answer"):
-                if user_query:
-                    with st.spinner("Retrieving answer..."):
-                        answer = st.session_state["retriever"].RAG_Retrieve(user_query)
-                        st.subheader("Chatbot Answer")
-                        st.write(answer)
+                    with st.spinner("Uploading to database..."):
+                        inserted_id = upload_to_mongodb(dict(st.session_state["final_output"]))
+                        if inserted_id:
+                            st.success(f"Report uploaded to database with ID: {inserted_id}")
+                        else:
+                            st.error("Something went wrong uploading to MongoDB.")
+                    st.markdown("### 🧾 Final Report (with Feedback)")
+                    st.json(st.session_state["final_output"])
                 else:
-                    st.warning("Please enter a query.")
+                    st.warning("Please generate the report before submitting feedback.")
+        
+
+        with tab3:
+            st.subheader("📄 Generated Proposal")
+            if "final_output" in st.session_state:  
+                st.markdown(st.session_state["final_output"]["proposal"], unsafe_allow_html=True)
+
+            # Export to DOCX and offer download
+                docx_path = markdown_to_docx(st.session_state["final_output"]["proposal"])
+                with open(docx_path, "rb") as f:
+                    st.download_button("📥 Download Proposal as Word Document", f, file_name="Generated_Proposal.docx")
+
+        # Initialize chatbot retriever after analysis
+        if "retriever" not in st.session_state:
+            temp_path = "temp_uploaded.pdf"
+            with open(temp_path, "wb") as f:
+                f.write(uploaded_file.getbuffer())
+            retriever = RAGretriver(temp_path)
+            with st.spinner("Setting up chatbot..."):
+                retriever.load_doc()
+                retriever.init_vectorstore()
+            st.session_state["retriever"] = retriever
 else:
-    st.info("Please upload an RFP PDF to begin the analysis.")
+    st.info("📂 Please upload an RFP file to get started.")

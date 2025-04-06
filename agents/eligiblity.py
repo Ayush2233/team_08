@@ -96,7 +96,7 @@ class EligibilityAgent:
                 }
         return structured_response
 
-    def chunk_text(self, text: str, chunk_size: int = 2000, overlap: int = 250) -> list:
+    def chunk_text(self, text: str, chunk_size: int = 2000, overlap: int = 150) -> list:
         """
         Splits the text into overlapping chunks.
         Each chunk contains `chunk_size` words, with `overlap` words shared with the next chunk.
