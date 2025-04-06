@@ -5,7 +5,7 @@
   },
   {
     "item": "Submission Method",
-    "details": "Through Vendor Registry online portal via the district\u2019s website at https://www.hazelwoodschools.org/Page/2238"
+    "details": "Submit through Vendor Registry via the district\u2019s website at https://www.hazelwoodschools.org/Page/2238"
   },
   {
     "item": "Required Forms",
@@ -13,263 +13,239 @@
   },
   {
     "item": "Inquiries Deadline",
-    "details": "Questions to Danielle Thomas, Director of Purchasing & Supplier Diversity no later than 2:00 pm on Tuesday, February 18, 2025 through the Vendor Registry online question submission process via the district\u2019s website at https://www.hazelwoodschools.org/Page/2238."
+    "details": "Questions to Danielle Thomas, Director of Purchasing & Supplier Diversity, no later than 2:00 pm on Tuesday, February 18, 2025 through Vendor Registry"
   },
   {
-    "item": "Proposal Submission Represented",
-    "details": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contract"
+    "item": "Inquiries Method",
+    "details": "Questions submitted through Vendor Registry online question submission process via the district\u2019s website at https://www.hazelwoodschools.org/Page/2238"
   },
   {
-    "item": "Purpose of RFP",
-    "details": "Seeking proposals for a comprehensive information technology audit for the Hazelwood School District (HSD)."
+    "item": "Technical Data Restriction Statement",
+    "details": "If the Proposal contains data the Company does not want used or disclosed for evaluation purposes only, the letter of transmittal must be marked with the specific restriction statement provided in the RFP, indicating the relevant page numbers."
   },
   {
-    "item": "No reimbursement for proposal preparation",
-    "details": "The District has no obligation to reimburse responding firms for expenses incurred in preparing Proposals."
+    "item": "Technical Data Restriction Statement Restriction",
+    "details": "Proposals shall not contain any restrictive language different from the statement provided in the RFP for technical data."
   },
   {
-    "item": "Right to reject proposals",
-    "details": "The District reserves the right to reject any or all Proposals and to waive informalities and minor irregularities."
+    "item": "Unmarked Technical Data",
+    "details": "The District assumes no liability for disclosure or use of unmarked technical data and may use or disclose the data for any reason."
   },
   {
-    "item": "Technical Data Restriction Marking",
-    "details": "If the proposal contains data the company doesn't want disclosed except for evaluation, the letter of transmittal must be marked with: 'Technical data contained on pages and______ in this Proposal furnished in connection with the Request for Proposal of the Hazelwood School District shall not be used nor disclosed except for evaluation purposes, provided that, if a Contract is awarded to this Company as a result of or in connection with the submission of this Proposal, Hazelwood School District shall have the right to use or disclose technical data to substantiate the award of a Contract.'"
-  },
-  {
-    "item": "Restrictions on Restrictive Language",
-    "details": "Proposals shall not contain any restrictive language different from the specified statement for technical data restriction."
-  },
-  {
-    "item": "District Liability for Unmarked Data",
-    "details": "The District assumes no liability for disclosure or use of unmarked technical data."
-  },
-  {
-    "item": "Page Limit (Overall)",
-    "details": "Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes."
+    "item": "Page Limit",
+    "details": "Proposals must be limited to 12 pages, excluding the letter of transmittal, executive summary, required attachments, and personnel resumes."
   },
   {
     "item": "Letter of Transmittal",
-    "details": "Include a Letter of Transmittal providing an introduction to the Company and includes an expression of the Company\u2019s ability and desire to meet the requirements of the RFP. The Letter of Transmittal should be under the signature of a Company officer."
+    "details": "Include a Letter of Transmittal introducing the company and expressing the company's ability and desire to meet the RFP requirements. It must be signed by a company officer."
   },
   {
     "item": "Executive Summary",
-    "details": "Include an Executive Summary that briefly describes the Company\u2019s approach to meeting the District\u2019s requirements as outlined in the RFP, indicates any major requirements than cannot be met, and highlights the major features of the Proposal."
-  },
-  {
-    "item": "Executive Summary Page Limit",
-    "details": "The executive summary must be no longer than three (3) pages."
+    "details": "Include an Executive Summary that briefly describes the Company\u2019s approach, indicates any major requirements than cannot be met, and highlights the major features of the Proposal. The Executive Summary must be no longer than three (3) pages."
   },
   {
     "item": "Team Member Information",
-    "details": "Include names, titles and specific responsibilities of team members. Clearly indicate the Company\u2019s prior experience in school district information technology audits, if applicable."
+    "details": "Include names, titles and specific responsibilities of team members and clearly indicate the Company\u2019s prior experience in school district information technology audits, if applicable."
   },
   {
     "item": "Office Address",
-    "details": "Give the address of the specific office which will have responsibility for performing the work."
+    "details": "Provide the address of the specific office that will be responsible for performing the work."
   },
   {
     "item": "Personnel Qualifications",
-    "details": "List the qualifications of personnel by discipline presently employed, as of the date of this Proposal, at the office specified above. If personnel are qualified in several disciplines, list the personnel only once under their primary discipline. Clearly indicate prior experience in school district information technology audits, if applicable."
-  },
-  {
-    "item": "Company Qualifications Narrative",
-    "details": "Through narrative discussion, show reason why the Company believes it is especially qualified"
-  },
-  {
-    "item": "Proposal Style",
-    "details": "Proposals must be concise and organized."
+    "details": "List the qualifications of personnel by discipline presently employed at the specified office, as of the date of the proposal. Clearly indicate prior experience in school district information technology audits, if applicable."
   },
   {
     "item": "Company Qualifications",
-    "details": "Discuss unique qualifications that benefit the District in the execution of this project."
+    "details": "Through narrative discussion, show reason why the Company believes it is especially qualified."
+  },
+  {
+    "item": "Company Qualifications Discussion",
+    "details": "Discuss any unique qualifications that the Company possesses which would be of a benefit to the District in the execution of this project."
   },
   {
     "item": "School Information Technology Audit Experience",
-    "details": "List recent examples of the Company\u2019s school information technology audit experience during the last five (5) years. Include the name of school district, contact person, and phone number for each project."
+    "details": "List recent examples of the Company\u2019s school information technology audit experience during the last five (5) years. For each project, indicate the name of school district, contact person, and phone number."
   },
   {
-    "item": "References",
-    "details": "Include references from other School Districts with name, address, and phone number of contact person. Only include references for projects completed in the past five (5) years."
+    "item": "References from other School Districts",
+    "details": "Include references from other School Districts with name, address and phone number of contact person. Only include references for which the Company has completed projects in the past five (5) years."
   },
   {
     "item": "Litigation Disclosure",
-    "details": "Indicate whether the company has been the subject of any litigation through the discharge of its professional services. If so, provide a detailed description of the litigants, the subject matter, and the disposition of the arbitration or lawsuit."
+    "details": "Indicate whether the Company has been the subject of any litigation through the discharge of its professional services. If so, provide a detailed description of the litigants, the subject matter, and the disposition of the arbitration or lawsuit."
   },
   {
     "item": "Attachment 1: Company Identification Form",
-    "details": "Complete Attachment 1, \u201cCompany Identification Form.\u201d"
+    "details": "The Company must complete Attachment 1, \u201cCompany Identification Form.\u201d"
   },
   {
     "item": "Attachment 2: References and Experience",
-    "details": "Complete Attachment 2, \u201cReferences and Experience,\u201d including a listing of all Missouri school districts for which the company has provided services. Include information on projects of a similar nature to that described in this RFP. Information on projects shall include the year the work was completed."
+    "details": "The Company must complete Attachment 2, \u201cReferences and Experience,\u201d including a listing of all Missouri school districts for which the company has provided services. The Company should provide information on projects of a similar nature to that described in this RFP. Information on projects shall include the year the work was completed."
   },
   {
     "item": "Bid Pricing Sheet",
     "details": "Firms must \ufb01ll out the Bid Pricing sheet."
   },
   {
-    "item": "Comprehensive Analysis Requirement",
-    "details": "Proposers are expected to indicate areas where the district's information technology could be assessed or improved through an audit process, including items not specified in 7.1 through 7.5."
-  },
-  {
-    "item": "Pricing for Additional Items",
-    "details": "Any additional items identified and their pricing, if not included elsewhere, should be indicated as separate line items on the pricing page."
-  },
-  {
     "item": "Company Introduction, History, and Qualifications",
-    "details": "Provide an introduction of your company, its history, and qualifications for the project."
+    "details": "Provide an introduction of your company, including its history and qualifications for this project."
   },
   {
-    "item": "Description of Data Acquisition Methods and Processes",
-    "details": "Describe the methods and processes to be used in acquiring data."
+    "item": "Description of Data Acquisition Methods",
+    "details": "Describe the methods and processes that will be used to acquire data."
   },
   {
-    "item": "Work Experience with School Districts and IT Audits",
-    "details": "Describe work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and e-mail addresses of at least three (3) clients."
+    "item": "Relevant Work Experience",
+    "details": "Describe work experience with school districts and information technology audits in the last five (5) years. Provide contact names, phone numbers, and e-mail addresses of at least three (3) clients."
   },
   {
-    "item": "Description of Firm's Services and Benefits to the District",
+    "item": "Firm Services and Benefits to the District",
     "details": "Briefly describe the services the firm provides and how those services will benefit the District."
   },
   {
-    "item": "Description of Data Required from the District",
+    "item": "Data Required from the District",
     "details": "Describe data that will need to be provided by the District to assist in the analysis and projections."
   },
   {
-    "item": "Detailed Description of Audit Process and Methodology",
+    "item": "Detailed Audit Process Description",
     "details": "Provide a detailed description of the audit process and methodology with data collection and analysis techniques."
   },
   {
-    "item": "Proposed Timeline for Completion of the Audit",
-    "details": "Include a proposed timeline for completion of the audit."
+    "item": "Proposed Timeline",
+    "details": "Propose a timeline for completion of the audit."
   },
   {
-    "item": "Sample Technology Audit Report",
-    "details": "Provide a sample technology audit report from a previous client (with confidential information redacted)."
+    "item": "Sample Audit Report",
+    "details": "Submit a sample technology audit report from a previous client, with confidential information redacted."
   },
   {
-    "item": "Comprehensive Written Report",
-    "details": "Provide a comprehensive written report detailing findings and recommendations as a deliverable."
+    "item": "Comprehensive Written Report Deliverable",
+    "details": "Provide a comprehensive written report detailing findings and recommendations."
   },
   {
-    "item": "Executive Summary",
-    "details": "Provide an executive summary for district leadership and school board as a deliverable."
+    "item": "Executive Summary Deliverable",
+    "details": "Provide an executive summary for district leadership and school board."
   },
   {
-    "item": "Presentation of Findings",
-    "details": "Provide a presentation of findings to district leadership (and school board if required) as a deliverable."
+    "item": "Presentation of Findings Deliverable",
+    "details": "Provide a presentation of findings to district leadership (and school board if required)."
   },
   {
-    "item": "Prioritized Recommendations",
-    "details": "Provide prioritized recommendations that are broken into the areas covered in the scope of work as a deliverable."
+    "item": "Prioritized Recommendations Deliverable",
+    "details": "Provide prioritized recommendations that are broken into the areas covered in the scope of work."
   },
   {
-    "item": "Suggested Key Performance Indicators (KPI)",
-    "details": "Provide suggested Key Performance Indicators (KPI) for measuring future success as a deliverable."
+    "item": "Suggested Key Performance Indicators (KPI) Deliverable",
+    "details": "Provide suggested Key Performance Indicators (KPI) for measuring future success."
   },
   {
     "item": "Responsiveness and Completeness",
-    "details": "Ensure the proposal is responsive and complete, including all requested information."
+    "details": "Ensure responsiveness and completeness of the vendor\u2019s proposal, including whether or not the vendor has provided all information requested in the RFP."
   },
   {
     "item": "Understanding of RFP Requirements",
-    "details": "Demonstrate understanding of and ability to address the RFP requirements."
+    "details": "Demonstrate proposers understanding of and ability to address the RFP requirements."
   },
   {
     "item": "Experience and References",
-    "details": "Provide proposer's experience and references of similar-sized school district clients."
+    "details": "Show proposers experience and reference of similar sized school district clients"
   },
   {
     "item": "Cost",
-    "details": "Include cost information in the proposal."
+    "details": "Include Cost."
   },
   {
     "item": "Ability to Provide Services",
-    "details": "Demonstrate the proposer's ability to provide the requested services."
+    "details": "Demonstrate proposers ability to provide the requested services."
   },
   {
     "item": "Project Approach",
-    "details": "Describe the project approach, showing logical organization, innovation, understanding, and experience with similar projects."
+    "details": "Illustrate a logical, organized, innovative understanding, and experience with similar"
   },
   {
     "item": "Company Identification Form",
-    "details": "Complete and return Attachment 1, designating a company representative to the District."
-  },
-  {
-    "item": "Acknowledgement of RFP Terms",
-    "details": "Acknowledge in Attachment 1 that the company has read and agrees to the terms and conditions of the RFP."
+    "details": "Complete and submit Attachment 1, designating a company representative for contact during the evaluation period. Agree to be bound by the RFP terms and certify no conflicts of interest exist."
   },
   {
     "item": "Proposal Validity Period",
-    "details": "Ensure that the proposal terms and conditions remain open for at least 90 days from the submission deadline."
+    "details": "Acknowledge that the proposal terms and conditions will remain open for at least 90 days from the submission deadline."
   },
   {
     "item": "References and Experience",
-    "details": "Submit a minimum of five (5) references in Attachment 2. Each reference must be presently using the company's services."
+    "details": "Submit a minimum of five references currently using the Company's services."
   },
   {
-    "item": "Reference List Restrictions",
-    "details": "References cannot be affiliates of the Company or its officers, directors, shareholders, or partners."
+    "item": "Submission Deadline",
+    "details": "Deadline for submission of proposals is 02/25/2025"
   },
   {
-    "item": "Primary Reference Type",
-    "details": "List current contracts for demographer services currently in force with public school districts as primary references."
+    "item": "MBE/WBE Participation",
+    "details": "Demonstrate commitment to MBE/WBE participation."
+  },
+  {
+    "item": "Reference Requirement",
+    "details": "Provide references for services similar to those requested in the RFP. References cannot be affiliated with the Company, its officers, directors, shareholders, or partners."
+  },
+  {
+    "item": "Primary References",
+    "details": "List current contracts for demographer services with public school districts as primary references."
   },
   {
     "item": "Reference Contact Information",
     "details": "Include contacts and telephone numbers for each reference."
   },
   {
-    "item": "Reference Format",
-    "details": "Provide the Company Name, Business Address, Name and Title of Contact, Phone Number of Contact, Contract Length, and Contract Value for each reference."
+    "item": "Additional Pages",
+    "details": "Use additional pages for additional contracts if needed."
   },
   {
-    "item": "Termination for Default Disclosure",
-    "details": "Note all contracts terminated for default within the last five (5) years. Submit full details of all terminations for default experienced."
+    "item": "Attachment 2 Title",
+    "details": "Attachment 2: References and Experience"
   },
   {
-    "item": "No Termination for Default Declaration",
+    "item": "Terminations for Default",
+    "details": "Note any contracts terminated for default within the last five (5) years. Default is defined as notice to stop performance due to nonperformance or poor performance."
+  },
+  {
+    "item": "Details of Terminations",
+    "details": "Submit full details of all terminations for default experienced."
+  },
+  {
+    "item": "No Terminations Indication",
     "details": "If the Company has experienced no terminations for default in the past five (5) years, so indicate."
   },
   {
     "item": "Company Information",
-    "details": "Provide company name, business address, contact name, contact title, and contact phone number."
-  },
-  {
-    "item": "Contract Length",
-    "details": "Provide the proposed contract length."
-  },
-  {
-    "item": "Contract Value",
-    "details": "Provide the proposed contract value."
+    "details": "Provide Company Name, Business Address, Name of Contact, Title of Contact, Phone Number of Contact."
   },
   {
     "item": "Proposal Validity",
-    "details": "Proposals shall be considered valid for a minimum of 60 days."
+    "details": "All proposals shall be considered valid for a minimum of 60 days."
   },
   {
     "item": "Ownership of Submittals",
     "details": "All completed proposals submitted in response to this RFP become the property of the District upon submission."
   },
   {
-    "item": "Price Adherence",
-    "details": "Services must be furnished at the submitted fees, costs, and/or rates. No increase in costs will be permitted during the contract term."
+    "item": "Price Commitment",
+    "details": "Services must be furnished at the fees, costs and/or rates submitted and proposed. No cost increases permitted during the contract term."
   },
   {
     "item": "Contract Approval Timeline",
-    "details": "Anticipated contract approval within 60 days of proposed submission."
+    "details": "Award of contract(s) or agreement to purchase anticipated to be within 60 days of proposed submission."
   },
   {
     "item": "Contract Return Timeline",
-    "details": "Vendor shall return executed copies of the contract, insurance certificates, bonds, etc., within seven (7) working days after receipt."
+    "details": "Vendor shall return properly executed copies of contract along with required certificates of insurance, bonds, etc., within seven (7) working days after their receipt."
   },
   {
-    "item": "Invoice Submission Method",
-    "details": "Invoices to be submitted via email to accountspayable@hazelwoodschools.org or mailed to 15955 New Halls Ferry Road, Florissant, MO 63031."
+    "item": "Invoice Submission",
+    "details": "Invoices submitted via email at accountspayable@hazelwoodschools.org or mailed to 15955 New Halls Ferry Road, Florissant, MO 63031."
   },
   {
-    "item": "Invoice Content Requirements",
-    "details": "Each invoice should contain the District purchase order number, date of shipment, quantity, price, and item(s) shipped."
+    "item": "Invoice Content",
+    "details": "Each invoice should contain the District purchase order number, date of shipment, quantity, price and item(s) shipped."
   },
   {
     "item": "Payment Terms",
@@ -277,271 +253,291 @@
   },
   {
     "item": "Comprehensive General Liability Insurance",
-    "details": "$1,000,000 per person per occurrence (Including Contractual Liability); $1,000,000 property damage per occurrence; $1,000,000 aggregate all claims per occurrence."
+    "details": "$1,000,000 per person per occurrence (Including Contractual Liability), $1,000,000 property damage per occurrence, $1,000,000 aggregate all claims per occurrence"
   },
   {
     "item": "Workers\u2019 Compensation Insurance",
-    "details": "As required by applicable law."
+    "details": "As required by applicable law"
   },
   {
     "item": "Employer\u2019s Liability Insurance",
-    "details": "$1,000,000 per occurrence."
+    "details": "$1,000,000 per occurrence"
   },
   {
     "item": "Automotive Liability Insurance",
-    "details": "Automotive Liability Insurance Required"
+    "details": "Requirement Exists but limits not specified in provided text."
   },
   {
-    "item": "Insurance Requirements",
-    "details": "Maintain Commercial General Liability insurance of $1,000,000 per occurrence and Professional Errors and Omissions insurance of $1,000,000 per occurrence."
+    "item": "Insurance Requirements - General Liability",
+    "details": "$1,000,000 per occurrence"
   },
   {
-    "item": "Tax Exclusion",
+    "item": "Insurance Requirements - Professional Errors and Omissions",
+    "details": "$1,000,000 per occurrence"
+  },
+  {
+    "item": "Taxes",
     "details": "Do NOT include Federal Excise Tax, Transportation Tax, or State Retail Sales Tax in the cost proposal."
   },
   {
-    "item": "No Participation Clause",
-    "details": "The successful Proposer cannot participate as a proposer, bidder, or subcontractor in related bids or RFPs."
+    "item": "No Participation",
+    "details": "The successful Proposer shall not participate as a proposer, bidder, or subcontractor on related bids or RFPs."
   },
   {
     "item": "Use of Information",
-    "details": "All information furnished under this RFP remains the property of the District and must be returned upon request. Confidentiality requirements apply."
+    "details": "Any Information furnished or disclosed under this RFP shall remain the property of the District and must be returned upon request. Must be held in confidence."
   },
   {
-    "item": "Confidentiality Disclaimer",
-    "details": "Information furnished by interested parties to the District under this RFP is not considered confidential or proprietary."
-  },
-  {
-    "item": "District Policies",
-    "details": "The successful Proposer must follow all District policies, including confidentiality of student records."
+    "item": "Policies and Confidentiality",
+    "details": "The successful Proposer shall follow all District policies, including those regarding confidentiality of student records."
   },
   {
     "item": "Permits and Fees",
-    "details": "The vendor is responsible for securing and paying for all necessary permits and governmental fees."
+    "details": "The vendor shall secure and pay for all permits and governmental fees necessary."
   },
   {
-    "item": "Compliance with Laws",
-    "details": "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work."
+    "item": "Compliance with Laws and Regulations",
+    "details": "Vendor must comply with all applicable laws, ordinances, rules, regulations, and orders."
   },
   {
     "item": "Proposal Price Sheet",
-    "details": "Include a Proposal Price Sheet detailing the bid amount for each deliverable."
+    "details": "Provide bid amount for each deliverable (7.1-7.5) in the specified format."
   },
   {
     "item": "Ability to Provide Service",
-    "details": "Indicate whether the vendor has the ability to provide the service (yes/no) for each deliverable in the Proposal Price Sheet."
-  },
-  {
-    "item": "Company Information",
-    "details": "Provide Company Name, Address, City/Zip, Phone, Fax, Federal Tax ID, Authorized Company Official Print Name, Authorized Company Official Signature, E-mail Address."
+    "details": "Indicate 'yes' or 'no' for each deliverable (7.1-7.5) to confirm ability to provide the service."
   },
   {
     "item": "Cost/Fee Structure",
     "details": "May include separate page for cost/fee structure."
   },
   {
-    "item": "Supplier Diversity Program Compliance",
-    "details": "Adherence to Hazelwood School District's Supplier Diversity Program, including MBE and WBE participation goals."
+    "item": "Supplier Diversity Program",
+    "details": "MBE participation goal: 25% on construction projects."
   },
   {
-    "item": "MBE/WBE Participation Goals",
-    "details": "Meet goals of 25% for MBEs and 5% for WBEs on construction projects. The District may reject proposals that do not meet its program goals."
+    "item": "Supplier Diversity Program",
+    "details": "WBE participation goal: 5% on construction projects."
   },
   {
-    "item": "Workforce Diversity Goal",
-    "details": "Strive for a workforce goal of 25% minority and 5% women."
+    "item": "Workforce Goals",
+    "details": "Encourages workforce goal of 25% minority and 5% women."
   },
   {
-    "item": "MBE/WBE Payment Terms",
-    "details": "Upon request and verification of need by the Hazelwood School District, the District will pay MBE/WBE contractors every two weeks for labor cost upon presentation of required documentation."
+    "item": "Proposal Rejection",
+    "details": "District may reject proposals that do not meet Supplier Diversity program goals."
   },
   {
-    "item": "Supplier Diversity Program Information",
-    "details": "The Hazelwood School District Supplier Diversity Program can be downloaded from the district\u2019s website at www.hazelwoodschools.org; on the left side of the home page click on \u201cProposals and Propos"
+    "item": "Payment to MBE/WBE",
+    "details": "District will pay MBE/WBE contractors every two weeks for labor cost upon presentation of required documentation (upon request and verification of need)."
   },
   {
     "item": "MBE/WBE Certification Requirements",
-    "details": "Must be certified by City of St. Louis, St. Louis Minority Supplier Development Council, Missouri Regional Certification Committee, State Certifications, National Minority Supplier Development Council, or Women Business Enterprise National Council on or before the proposal opening date."
+    "details": "MBE/WBE firms must be certified by City of St. Louis, St. Louis Minority Supplier Development Council, Missouri Regional Certification Committee, State Certifications, National Minority Supplier Development Council, or Women Business Enterprise National Council on or before the proposal opening date."
   },
   {
-    "item": "Proposal Validity Period",
-    "details": "No Proposal may be withdrawn for a period of 60 days subsequent to the specified time for receipt of proposals."
+    "item": "Manufacturer MBE/WBE Certification",
+    "details": "In the case of a manufacturer, MBE/WBE certification by any state division of purchasing or the National Minority Supplier Development Council and its affiliates is accepted."
+  },
+  {
+    "item": "Proposal Withdrawal Period",
+    "details": "No proposal may be withdrawn for 60 days subsequent to the specified time for receipt of proposals."
   },
   {
     "item": "Supplier Diversity Program Documentation",
     "details": "Forms A and B are located within the Supplier Diversity document."
   },
   {
-    "item": "Subcontractor Utilization Form Required",
-    "details": "If awarded the bid, the prime contractor must complete a Subcontractor Utilization Form listing MBE/WBE firms to be subcontracted with, the work or trade, firm name, and subcontract amount."
+    "item": "Subcontractor Utilization Form",
+    "details": "Complete the Subcontractor Utilization Form if awarded the bid, listing MBE/WBE firms to be subcontracted with, work/trade, firm name, and subcontract amount."
   },
   {
-    "item": "MBE/WBE Subcontract Totals",
-    "details": "The Subcontractor Utilization Form must include subtotals for MBE and WBE subcontracts, a total subcontract amount, the total bid amount, and the total MBE/WBE percentage."
+    "item": "Subcontractor Utilization Form: MBE/WBE breakdown",
+    "details": "Report the total MBE and WBE subcontract amounts separately."
   },
   {
-    "item": "MBE/WBE Subcontractor Solicitation Report",
-    "details": "Submit HSD Form A if claiming MBE/WBE participation. Only work managed and performed by certified MBE/WBE counts towards the goal."
+    "item": "Subcontractor Utilization Form: Total Bid and MBE/WBE percentages",
+    "details": "Include the Total Bid amount, as well as the calculated Total MBE % and Total WBE %."
   },
   {
-    "item": "MBE/WBE Subcontractor Solicitation Report",
-    "details": "Provide reasons if not subcontracting with contacted MBE/WBE firms, attach additional pages if needed. Submit HSD Form B"
+    "item": "MBE/WBE Certification",
+    "details": "If applicable, certify MBE/WBE status on Form A. Only the portion of work managed and performed by the certified MBE/WBE will count toward the goal."
+  },
+  {
+    "item": "HSD Form A",
+    "details": "Complete HSD Form A."
+  },
+  {
+    "item": "HSD Form B",
+    "details": "Complete HSD Form B if applicable"
   },
   {
     "item": "E-Verify Affidavit",
-    "details": "Provide an affidavit affirming the business uses E-Verify and does not employ illegal workers if the contract may exceed $5,000, as required by Section 285.530, RSMo."
+    "details": "Provide an affidavit affirming the use of E-Verify and that the business does not employ illegal workers if the contract may exceed $5,000, as required by Section 285.530, RSMo."
   },
   {
     "item": "OSHA Training Documentation",
-    "details": "Provide documentation of completing a ten (10) hour OSHA construction safety program for on-site workers, if required by \u00a7292.675, RSMo."
+    "details": "Provide documentation of a ten (10) hour OSHA construction safety program for on-site workers of public works projects, as required by \u00a7292.675, RSMo. If employees have already completed the program, provide documentation of completion."
   },
   {
     "item": "Client References",
-    "details": "Supply at least three (3) client references for completed work in the last 1-2 years, including organization name, address, phone, contact person, project description, and contract amount."
+    "details": "Supply at least three (3) client references for completed work in the last 1-2 years. Provide organization name, address, phone, contact person, project description, and contract amount for each reference."
   },
   {
     "item": "Business Entity Certification",
-    "details": "Certify current business status by completing Box A, Box B, or Box C on the Exhibit."
+    "details": "Certify the current business status by completing either Box A, Box B, or Box C on the Exhibit."
   },
   {
-    "item": "Business Entity Certification (Box A)",
-    "details": "Complete and submit Box A if the company/individual DOES NOT meet the definition of a business entity as defined in section 285.525, RSMo."
+    "item": "Business Entity Definition Compliance",
+    "details": "Proposals must comply with the definition of a business entity as defined in section 285.525, RSMo."
   },
   {
-    "item": "Business Entity Definition",
-    "details": "Understand the definition of a 'business entity' according to section 285.525, RSMo, as provided in the RFP."
+    "item": "Box A Certification",
+    "details": "If not a business entity, complete Box A, indicating reason (self-employed or utilizing direct sellers)."
   },
   {
     "item": "Alien Status Certification",
     "details": "Certify that the company/individual is not an alien unlawfully present in the United States."
   },
   {
-    "item": "Notification of Business Status Change",
-    "details": "Notify the contracting agency if the business status changes to become a business entity during the life of the contract."
+    "item": "Business Status Change Notification",
+    "details": "If business status changes to become a business entity during the contract, the change must be reported."
   },
   {
-    "item": "Work Authorization Affidavit",
-    "details": "Consultants/contractors meeting the definition of a business entity under section 285.525, RSMo, must complete and return the Affidavit of Work Authorization."
-  },
-  {
-    "item": "E-Verify Enrollment",
-    "details": "Business entities must be enrolled and participate in the E-Verify federal work authorization program for employees hired after enrollment and proposed to work on the contract."
-  },
-  {
-    "item": "Unauthorized Alien Employment",
-    "details": "Business entities must affirm that they do not and will not knowingly employ unauthorized aliens in connection with contracted services."
-  },
-  {
-    "item": "Box A Completion",
-    "details": "To be completed by a non-business entity."
-  },
-  {
-    "item": "Box B Completion",
-    "details": "To be completed by a business entity who has not yet completed and submitted documentation pertaining to the federal work authorization program as described at www.e- verify.gov/."
-  },
-  {
-    "item": "Box B Compliance",
-    "details": "If Box B is completed, the company/individual must comply with the requirements stated in Box B and provide Rockwood School District with all documentation required in Box B."
-  },
-  {
-    "item": "Box C Completion",
-    "details": "To be completed by a business entity who has current work authorization documentation on file with a Missouri state agency including Division of Purchasing and Materials Management."
-  },
-  {
-    "item": "False Statements Penalty",
-    "details": "Submission is subject to penalties under section 575.040, RSMo for false statements."
-  },
-  {
-    "item": "Authorized Representative Signature",
-    "details": "Signature of Authorized Representative is required."
-  },
-  {
-    "item": "Printed Name of Representative",
-    "details": "Printed name of the Authorized Representative is required."
-  },
-  {
-    "item": "Title of Representative",
-    "details": "Title of the Authorized Representative is required."
-  },
-  {
-    "item": "Date",
-    "details": "Date of signature is required."
-  },
-  {
-    "item": "E-Mail Address",
-    "details": "E-mail address of representative is required."
-  },
-  {
-    "item": "E-Verify Company ID Number",
-    "details": "E-Verify Company ID Number is required."
-  },
-  {
-    "item": "Notary Public Attestation",
-    "details": "Submission must be subscribed and sworn before a Notary Public."
-  },
-  {
-    "item": "Notary Signature and Date",
-    "details": "Signature and date from the Notary Public are required."
-  },
-  {
-    "item": "Box B - Current Business Entity Status",
-    "details": "Complete if E-Verify documentation and Affidavit of Work Authorization are not already on file."
-  },
-  {
-    "item": "Business Entity Definition",
-    "details": "Business Entity must meet the definition in section 285.525, RSMo, pertaining to section 285.530."
-  },
-  {
-    "item": "Authorized Business Entity Representative's Name",
-    "details": "Printed name of authorized business entity representative is required."
-  },
-  {
-    "item": "Authorized Business Entity Representative's Signature",
-    "details": "Signature of authorized business entity representative is required."
-  },
-  {
-    "item": "Business Entity Name",
-    "details": "Business Entity name is required."
-  },
-  {
-    "item": "Date",
-    "details": "Date is required."
-  },
-  {
-    "item": "E-Mail Address",
-    "details": "E-mail address is required."
+    "item": "Work Authorization Affidavit (Business Entity)",
+    "details": "If the consultant/contractor meets the definition of a business entity per section 285.525, RSMo, an Affidavit of Work Authorization must be completed and returned."
   },
   {
     "item": "E-Verify Enrollment and Participation",
-    "details": "Enroll and participate in E-Verify (www.e-verify.gov) for employees hired after enrollment and who will work on the services required."
+    "details": "The business entity must affirm that it is enrolled and will continue to participate in the E-Verify federal work authorization program for employees hired after enrollment who are proposed to work on the contract."
+  },
+  {
+    "item": "Unauthorized Alien Employment Prohibition",
+    "details": "The business entity must affirm that it does not and will not knowingly employ an unauthorized alien in connection with the contracted services."
+  },
+  {
+    "item": "Box B Completion Requirement",
+    "details": "Business entities not yet complying with federal work authorization program requirements as described at www.e-verify.gov/ must complete Box B."
+  },
+  {
+    "item": "Box B Compliance and Documentation",
+    "details": "Business entities completing Box B must comply with the requirements stated in Box B and provide Rockwood School District with all documentation required in Box B."
+  },
+  {
+    "item": "Box A Completion Requirement",
+    "details": "Non-business entities must complete Box A."
+  },
+  {
+    "item": "Box C Completion Requirement",
+    "details": "Business entities with current work authorization documentation on file with a Missouri state agency, including Division of Purchasing and Materials Management, must complete Box C."
+  },
+  {
+    "item": "False Statements Penalty",
+    "details": "Acknowledgement that false statements are subject to penalties under section 575.040, RSMo."
+  },
+  {
+    "item": "Authorized Representative Signature",
+    "details": "Signature of the authorized representative."
+  },
+  {
+    "item": "Printed Name",
+    "details": "Printed name of the authorized representative."
+  },
+  {
+    "item": "Title",
+    "details": "Title of the authorized representative."
+  },
+  {
+    "item": "Date",
+    "details": "Date of signature."
+  },
+  {
+    "item": "E-Mail Address",
+    "details": "E-mail address of the authorized representative."
+  },
+  {
+    "item": "E-Verify Company ID Number",
+    "details": "E-Verify Company ID Number."
+  },
+  {
+    "item": "Notary Acknowledgment",
+    "details": "Subscribed and sworn to before a notary public, including date, county, state, and commission expiration date."
+  },
+  {
+    "item": "Business Entity Status (Box B)",
+    "details": "If not providing E-Verify documentation or Affidavit of Work Authorization, complete Box B."
+  },
+  {
+    "item": "Business Entity Name",
+    "details": "State the Business Entity Name"
+  },
+  {
+    "item": "Representative Name (Print)",
+    "details": "Representative Name printed"
+  },
+  {
+    "item": "Representative Signature",
+    "details": "Signature of business entity representative"
+  },
+  {
+    "item": "Date",
+    "details": "Date of signature."
+  },
+  {
+    "item": "E-Mail Address",
+    "details": "Email address of representative"
+  },
+  {
+    "item": "E-Verify Enrollment and Participation",
+    "details": "Enroll and participate in the E-Verify program for employees working on the contract."
   },
   {
     "item": "E-Verify Documentation",
-    "details": "Provide documentation affirming E-Verify enrollment and participation, including the E-Verify Employment Eligibility Verification page listing the consultant/contractor."
+    "details": "Provide documentation affirming enrollment and participation in the E-Verify program, including the E-Verify Employment Eligibility Verification page."
   },
   {
-    "item": "E-Verify Documentation (If applicable)",
-    "details": "Submit the E-Verify Employment Eligibility Verification page OR a page from the E-Verify Memorandum of Understanding (MOU) listing the consultant\u2019s/contractor\u2019s name and the MOU signature page completed and signed by the consultant/contractor and the Department of Homeland Security \u2013 Verification Division. If the signature page of the MOU lists the consultant\u2019s/contractor\u2019s name and company ID, then no additional pages of the MOU must be submitted."
+    "item": "E-Verify Documentation OR Affidavit of Work Authorization",
+    "details": "Submit E-Verify Employment Eligibility Verification page OR page from the E-Verify MOU listing the consultant\u2019s/contractor\u2019s name and MOU signature page signed by consultant/contractor and Department of Homeland Security OR Submit a completed, notarized Affidavit of Work Authorization"
   },
   {
-    "item": "Affidavit of Work Authorization",
-    "details": "Submit a completed, notarized Affidavit of Work Authorization."
+    "item": "Affidavit of Work Authorization - Notarization",
+    "details": "The Affidavit of Work Authorization must be notarized."
   },
   {
-    "item": "Affidavit On File Certification (If applicable)",
-    "details": "If certifying that E-Verify and Affidavit are on file with the State of Missouri, provide the name of the Missouri State Agency or Public University where the documentation was previously provided."
+    "item": "Affidavit on File Certification",
+    "details": "If claiming Affidavit on File, certify business entity meets definition in section 285.525, RSMo, pertaining to section 285.530, RSMo, and currently participates in E-Verify"
   },
   {
-    "item": "Current Affidavit Requirement",
-    "details": "The notarized Affidavit of Work Authorization must be completed, signed, and notarized within the past twelve months."
+    "item": "Previous E-Verify Documentation",
+    "details": "If claiming Affidavit on File, provide the previously submitted E-Verify Employment Eligibility Verification page OR E-Verify MOU page with signature page."
   },
   {
-    "item": "E-Verify Documentation Submission Fields",
-    "details": "Provide the date of previous E-Verify documentation submission, previous RFP/RFQ number for which previous E-Verify documentation was submitted, authorized business entity representative\u2019s name (printed), authorized business entity representative\u2019s signature, E-Verify MOU Company ID Number, E-Mail Address, and Business Entity Name."
+    "item": "Current Affidavit of Work Authorization",
+    "details": "If claiming Affidavit on File, provide the previously submitted current, notarized Affidavit of Work Authorization (must be completed, signed, and notarized within the past twelve months)."
+  },
+  {
+    "item": "Name of Missouri State Agency or Public University",
+    "details": "If claiming Affidavit on File, provide the Name of Missouri State Agency or Public University where documents were previously submitted."
+  },
+  {
+    "item": "E-Verify Documentation Submission",
+    "details": "Provide details of previous E-Verify documentation submission, including date and RFP/RFQ number."
+  },
+  {
+    "item": "Authorized Business Entity Representative Information",
+    "details": "Include the printed name, signature, E-Verify MOU Company ID Number, and email address of the authorized business entity representative."
+  },
+  {
+    "item": "Business Entity Name",
+    "details": "Provide the name of the business entity."
+  },
+  {
+    "item": "Date",
+    "details": "Indicate the date of submission."
   },
   {
     "item": "Contractor Information",
-    "details": "Provide Contractor's Address (City, State, Zip), Telephone Number, and Tax identification Number (or Social Security Number)."
+    "details": "Provide the contractor's address, city, state, zip code, telephone number, and Tax Identification Number (or Social Security Number)."
   },
   {
     "item": "Contract Execution",
@@ -549,42 +545,42 @@
   },
   {
     "item": "Contractor Signature",
-    "details": "Contractor's Signature and Date required."
+    "details": "Contractor's signature and date required."
   },
   {
     "item": "Notary Public",
-    "details": "Subscribed and sworn to before Notary Public on a specific date with Notary Public's Commission Expiration date."
+    "details": "Subscribed and sworn to before a Notary Public, including commission expiration date."
   },
   {
     "item": "District Signature",
-    "details": "District's Signature and Date required."
+    "details": "District's signature and date required."
   },
   {
-    "item": "MBE/WBE Subcontractor Utilization Form",
-    "details": "Submit HSD FORM A"
+    "item": "HSD FORM A \u2013 MBE/WBE Subcontractor Utilization Form",
+    "details": "Submit the completed HSD FORM A."
   },
   {
-    "item": "MBE/WBE Subcontractor Solicitation Form",
-    "details": "Submit HSD FORM B"
+    "item": "HSD FORM B \u2013 MBE/WBE Subcontractor Solicitation Form",
+    "details": "Submit the completed HSD FORM B."
   },
   {
     "item": "Proposal Response Sheet",
-    "details": "Submit Proposal Response Sheet"
+    "details": "Submit the Proposal Response Sheet."
   },
   {
     "item": "E-Verify Affidavits",
-    "details": "Submit E-Verify Affidavits"
+    "details": "Submit E-Verify Affidavits."
   },
   {
     "item": "Completed W-9",
-    "details": "Submit Completed W-9 form"
+    "details": "Submit the completed W-9 form."
   },
   {
     "item": "Agreement for Contracted Services",
-    "details": "Submit Agreement for Contracted Services"
+    "details": "Submit the Agreement for Contracted Services."
   },
   {
     "item": "RFP Proposal",
-    "details": "Submit RFP Proposal"
+    "details": "Submit the RFP Proposal."
   }
 ]

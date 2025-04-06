@@ -43,18 +43,31 @@ def load_rfp_text(file_path):
     return all_text
 
 
+import fitz  # PyMuPDF
+import docx  # python-docx
+import os
+
 def parse_pdf_streamlit(file_obj):
-    """
-    Parse PDF text from a file-like object (e.g., uploaded file from Streamlit).
-    """
     try:
-        # Read the file bytes from the file-like object
-        file_bytes = file_obj.read()
-        # Open the document from bytes. The "pdf" argument specifies the file type.
-        doc = fitz.open("pdf", file_bytes)
-        full_text = ""
-        for page in doc:
-            full_text += page.get_text() + "\n"
-        return full_text
+        file_name = file_obj.name.lower()
+        
+        if file_name.endswith(".pdf"):
+            file_bytes = file_obj.read()
+            doc = fitz.open("pdf", file_bytes)
+            full_text = ""
+            for page in doc:
+                full_text += page.get_text() + "\n"
+            return full_text
+        
+        elif file_name.endswith(".docx"):
+            docx_file = docx.Document(file_obj)
+            full_text = ""
+            for para in docx_file.paragraphs:
+                full_text += para.text + "\n"
+            return full_text
+
+        else:
+            raise ValueError("Unsupported file type. Please upload a PDF or DOCX file.")
+
     except Exception as e:
-        raise Exception(f"Error parsing PDF: {e}")
+        raise Exception(f"Error parsing file: {e}")

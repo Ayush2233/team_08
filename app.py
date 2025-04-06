@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import json
+import pymongo
 from utils.fileparser import parse_pdf_streamlit  # For uploaded PDF files
 from agents.eligiblity import EligibilityAgent
 from agents.checklist import SubmissionChecklistGenerator  # Ensure implemented
@@ -9,6 +10,21 @@ from agents.risk_assessment import RiskAssessmentAgent
 from utils.RAGretriver import RAGretriver  # For chatbot functionality
 import torch
 torch.classes.__path__ = []
+
+def upload_to_mongodb(data):
+    try:
+        # Replace <db_password> with your actual password or fetch from environment variables
+        connection_string = "mongodb+srv://apurva:apurva123@cluster0.0nmuvte.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        client = pymongo.MongoClient(connection_string)
+        db = client["consultadd"]
+        collection = db["hackathon"]
+        result = collection.insert_one(data)
+        return result.inserted_id
+    except Exception as e:
+        st.error(f"Error uploading to MongoDB: {e}")
+        return None
+
+
 
 st.set_page_config(page_title="RFP Analysis, Detailed Report & Chatbot", layout="wide")
 st.title("RFP Analysis, Detailed Report & Chatbot")
@@ -95,6 +111,8 @@ if uploaded_file is not None:
                     st.success("Feedback submitted!")
                     st.subheader("Final Combined Report with Feedback")
                     st.json(st.session_state["final_output"])
+                    with st.spinner("Uploading to DB"):
+                        inserted_id = upload_to_mongodb(dict(st.session_state["final_output"]))
                 else:
                     st.warning("Please generate the report first.")
 
